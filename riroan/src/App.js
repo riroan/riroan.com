@@ -16,21 +16,17 @@ export default function App() {
 	return (
 		<div className="DefaultContainer">
 			<Div>
-				<div style={{ display: 'flex' }}>
-					<div>
-						<span>김명기</span>
-						<span> (riroan)</span>
-						<br />
-						1998. 09. 09.
-						<br />
-						riroan@naver.com
-						<br />
-						Backend Developer
-					</div>
-				</div>
+				<H2>
+					김명기<Assist> riroan</Assist>
+				</H2>
+				<P>
+					1998. 09. 09.
+					<br />
+					Backend Developer
+					<br />
+					riroan@naver.com
+				</P>
 			</Div>
-			<hr />
-			<br />
 			<Div>
 				<H2>안녕하세요! 저는</H2>
 				<Ul display={true}>
@@ -57,7 +53,7 @@ export default function App() {
 				<H2>
 					APAP <Assist>Abnormal Pattern Alarmer Platform,</Assist> <DateTime>2021. 06. - 2021. 12.</DateTime>
 				</H2>
-				<TechStack>#Python #FastAPI #Pytorch #AWS #CV #React #Typescript</TechStack>
+				<TechStack>#Python #FastAPI #Pytorch #AWS #Computer Vision #React #Typescript</TechStack>
 				<P>
 					<A href="https://www.swmaestro.org/sw/bbs/B0000006/view.do?nttId=25024&menuNo=200015&pageIndex=5">소프트웨어 마에스트로 12기에서 수행한 프로젝트</A>입니다. CCTV에서 이상행동을
 					감지하는 프로젝트로 Pytorch를 사용한 AI모델 개발/학습/배포를 진행했습니다. 추가로 관리자를 위한 Backoffice 페이지도 개발했습니다.
@@ -228,7 +224,10 @@ export default function App() {
 			</Div>
 			<Div>
 				<H2>
-					<A href="https://solved.ac/profile/riroan/arena">솔브드 아레나</A> <Assist style={{ color: '#30A1E5' }}>최고 레이팅 2,234 (SS+)</Assist>
+					<A href="https://solved.ac/profile/riroan/arena">솔브드 아레나</A>{' '}
+					<Assist style={{ color: '#30A1E5' }}>
+						최고 레이팅 2,234 (SS<sup>+</sup>)
+					</Assist>
 				</H2>
 				<P>백준에서 개최되는 대회 성적에 따라 레이팅을 얻는 시스템입니다. 현재 44등에 위치하고 있고 상위 1.44%에 해당합니다.</P>
 			</Div>
