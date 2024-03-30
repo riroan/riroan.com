@@ -5,7 +5,7 @@ export default function Item(props) {
 	const marginLeft = props.depth * 30 - 20 || 10
 	return (
 		<div style={{ marginLeft: marginLeft }} className={styles.container}>
-			{props.children}
+			<li>{props.children}</li>
 		</div>
 	)
 }

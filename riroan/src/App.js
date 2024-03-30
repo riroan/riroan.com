@@ -26,15 +26,9 @@ export default function App() {
 				안녕하세요
 				<br />
 				<ul>
-					<Item depth={1}>
-						<li>언제나 현재 코드를 개선할 수 있는지 고민합니다.</li>
-					</Item>
-					<Item depth={1}>
-						<li>What보다는 How와 Why를 중요하게 생각합니다.</li>
-					</Item>
-					<Item depth={1}>
-						<li>알고 있는 지식을 알려주고 배우며 함께 성장하는 것을 지향합니다.</li>
-					</Item>
+					<Item depth={1}>언제나 현재 코드를 개선할 수 있는지 고민합니다.</Item>
+					<Item depth={1}>What보다는 How와 Why를 중요하게 생각합니다.</Item>
+					<Item depth={1}>알고 있는 지식을 알려주고 배우며 함께 성장하는 것을 지향합니다.</Item>
 				</ul>
 			</Div>
 			<H1>WORK EXPERIENCES</H1>
@@ -56,29 +50,31 @@ export default function App() {
 				</H2>
 				<TechStack>#Python #FastAPI #Pytorch #AWS #CV #React #Typescript</TechStack>
 				<P>
-					소프트웨어 마에스트로 12기에서 수행한 프로젝트입니다. CCTV에서 이상행동을 감지하는 프로젝트로 Pytorch를 사용한 AI모델 개발/학습/배포를 진행했습니다. 추가로 관리자를 위한 Backoffice
-					페이지도 개발했습니다.
+					<A href="https://www.swmaestro.org/sw/bbs/B0000006/view.do?nttId=25024&menuNo=200015&pageIndex=5">소프트웨어 마에스트로 12기에서 수행한 프로젝트</A>입니다. CCTV에서 이상행동을
+					감지하는 프로젝트로 Pytorch를 사용한 AI모델 개발/학습/배포를 진행했습니다. 추가로 관리자를 위한 Backoffice 페이지도 개발했습니다.
 				</P>
 				<ul>
-					<Item depth={1}>
-						<li>CI/CD/CT 파이프라인 구성</li>
-					</Item>
-					<Item depth={1}>
-						<li>Backbone Network 개선, Data augmentation, Fine tuning 학습 기법을 통해 탐지율 85% -> 93% 개선</li>
-					</Item>
-					<Item depth={1}>
-						<li>모델 개발을 위한 SOTA 논문 정독 및 적용 </li>
-					</Item>
-					<Item depth={1}>
-						<li>Agile 개발 방법론 사용</li>
-					</Item>
+					<Item depth={1}>CI/CD/CT 파이프라인 구성</Item>
+					<Item depth={1}>Backbone Network 개선, Data augmentation, Fine tuning 학습 기법을 통해 탐지율 85% → 93% 개선</Item>
+					<Item depth={1}>모델 개발을 위한 SOTA 논문 정독 및 적용</Item>
 					<ul>
 						<Item depth={2}>
-							<li>데일리 스크럼 수행</li>
+							<A href="https://github.com/MVIG-SJTU/AlphAction">AlphAction</A>
 						</Item>
 						<Item depth={2}>
-							<li>2주단위 스프린트 4회 진행</li>
+							<A href="https://github.com/ultralytics/yolov5">Yolo V5</A>
 						</Item>
+						<Item depth={2}>
+							<A href="https://github.com/zengwb-lx/Yolov5-Deepsort-Fastreid">Deepsort + FastReid</A>
+						</Item>
+					</ul>
+					<Item depth={1}>
+						<A href="https://atomicdesign.bradfrost.com/chapter-2/">Atomic Design Pattern</A>을 사용하여 Backoffice 페이지 구현
+					</Item>
+					<Item depth={1}>Agile 개발 방법론 사용</Item>
+					<ul>
+						<Item depth={2}>데일리 스크럼 수행</Item>
+						<Item depth={2}>2주단위 스프린트 4회 진행</Item>
 					</ul>
 				</ul>
 			</Div>
@@ -89,15 +85,9 @@ export default function App() {
 				<TechStack>#Typescript #React #Java #Spring #MySQL #Nginx #Oracle Cloud #Docker #Github Action</TechStack>
 				<P>개인용 스토리지를 편리하게 사용할 수 있도록 개발한 1인 프로젝트입니다. 프론트엔드, 백엔드 개발을 모두 담당했습니다.</P>
 				<ul>
-					<Item depth={1}>
-						<li>Nginx를 사용하여 리버스 프록시 적용, 최대 전송 파일 크기 제한</li>
-					</Item>
-					<Item depth={1}>
-						<li>Docker Compose, Github Action을 사용하여 CICD 구성 </li>
-					</Item>
-					<Item depth={1}>
-						<li>Spring Data JPA를 사용하여 ORM 적용</li>
-					</Item>
+					<Item depth={1}>Nginx를 사용하여 리버스 프록시 적용, 최대 전송 파일 크기 제한</Item>
+					<Item depth={1}>Docker Compose, Github Action을 사용하여 CICD 구성</Item>
+					<Item depth={1}>Spring Data JPA를 사용하여 ORM 적용</Item>
 				</ul>
 			</Div>
 			<Div>
@@ -107,15 +97,9 @@ export default function App() {
 				<TechStack>#Typescript #React #Python #FastAPI #MySQL #AWS #Docker #Github Action</TechStack>
 				<P>건국대학교 학생이 해결하지 않은 백준 문제를 분석하고 리스트를 제공하는 1인 프로젝트입니다. 프론트엔드, 백엔드 개발을 모두 담당했습니다.</P>
 				<ul>
-					<Item depth={1}>
-						<li>Docker Compose, Github Action을 사용하여 CICD 구성</li>
-					</Item>
-					<Item depth={1}>
-						<li>Crontab을 사용하여 주기적인 작업 수행</li>
-					</Item>
-					<Item depth={1}>
-						<li>ACM에서 SSL을 발급하여 Loadbalancer에 적용하여 HTTPS 통신 및 로드밸런싱</li>
-					</Item>
+					<Item depth={1}>Docker Compose, Github Action을 사용하여 CICD 구성</Item>
+					<Item depth={1}>Crontab을 사용하여 주기적인 작업 수행</Item>
+					<Item depth={1}>ACM에서 SSL을 발급하여 Loadbalancer에 적용하여 HTTPS 통신 및 로드밸런싱</Item>
 				</ul>
 			</Div>
 			<Div>
@@ -125,12 +109,8 @@ export default function App() {
 				<TechStack>#Python</TechStack>
 				<P>만우절을 기념하여 롤에서 사용하는 채팅을 모방하여 프로그래밍하는 난해한 프로그래밍 언어를 개발했습니다.</P>
 				<ul>
-					<Item depth={1}>
-						<li>문법 정의 및 로직 구현</li>
-					</Item>
-					<Item depth={1}>
-						<li>롤랭 위키 작성</li>
-					</Item>
+					<Item depth={1}>문법 정의 및 로직 구현</Item>
+					<Item depth={1}>롤랭 위키 작성</Item>
 				</ul>
 			</Div>
 			<H1>EDUCATION</H1>
@@ -157,41 +137,65 @@ export default function App() {
 				<H2>
 					<A href="https://icpc.global/">ICPC</A> <Assist>International Collegiate Programming Contest</Assist>
 				</H2>
-				<A href="https://riroan.tistory.com/88">2022, Asia Seoul Regional Contest</A>
-				<br />
-				2018, Asia Seoul Regional Contest
+				<ul>
+					<Item depth={1}>
+						<A href="https://riroan.tistory.com/88">2022, Asia Seoul Regional Contest</A>
+					</Item>
+					<Item depth={1}>2018, Asia Seoul Regional Contest</Item>
+				</ul>
 			</Div>
 			<Div>
 				<H2>
 					<A href="https://www.facebook.com/codingcompetitions/hacker-cup">Meta Hacker Cup</A>
 				</H2>
-				2023, Competed in Round 2
-				<br />
-				<A href="https://riroan.tistory.com/85">2022, Competed in Round 2</A>
+				<ul>
+					<Item>2023, Competed in Round 2</Item>
+					<Item>
+						<A href="https://riroan.tistory.com/85">2022, Competed in Round 2</A>
+					</Item>
+				</ul>
 			</Div>
 			<Div>
 				<H2>
 					<A href="https://ucpc.me/">UCPC</A> <Assist>전국 대학생 프로그래밍 대회</Assist>
 				</H2>
-				<A href="https://riroan.tistory.com/71">
-					2022, 41<sup>th</sup> place
-				</A>
+				<ul>
+					<Item>
+						<A href="https://riroan.tistory.com/71">
+							2022, 41<sup>th</sup> place
+						</A>
+					</Item>
+				</ul>
 			</Div>
 			<Div>
 				<H2>엘리스 코드 챌린지</H2>
-				<A href="https://riroan.tistory.com/166">2023, 최우수상</A>
+				<ul>
+					<Item>
+						<A href="https://riroan.tistory.com/166">2023, 최우수상</A>
+					</Item>
+				</ul>
 			</Div>
 			<Div>
 				<H2>현대모비스 알고리즘 경진대회</H2>
-				<A href="https://riroan.tistory.com/151">2023, 장려상</A>
+				<ul>
+					<Item>
+						<A href="https://riroan.tistory.com/151">2023, 장려상</A>
+					</Item>
+				</ul>
 			</Div>
 			<Div>
 				<H2>탑 프로그래머스</H2>
-				2022, 탑 프로그래머스 취득
+				<ul>
+					<Item>
+						<A href="https://riroan.tistory.com/86">2022, 탑 프로그래머스 취득</A>
+					</Item>
+				</ul>
 			</Div>
 			<Div>
 				<H2>쇼미더 코드</H2>
-				2022, 1회차 금손 취득
+				<ul>
+					<Item>2022, 1회차 금손 취득</Item>
+				</ul>
 			</Div>
 			<H1>ALGORITHM EXPERIENCES</H1>
 			<Div>
@@ -234,39 +238,23 @@ export default function App() {
 				<P>건국대학교에서 개최한 알고리즘 문제 해결 대회입니다.</P>
 				<ul>
 					<Item depth={1}>
-						<li>
-							<A href="http://scoreboard.riroan.com/problemset.pdf">KUPC 2022</A> 운영, 출제 및 검수
-						</li>
+						<A href="http://scoreboard.riroan.com/problemset.pdf">KUPC 2022</A> 운영, 출제 및 검수
 					</Item>
 					<ul>
-						<Item depth={2}>
-							<li>만쥬의 식사</li>
-						</Item>
-						<Item depth={2}>
-							<li>비숍 여행</li>
-						</Item>
-						<Item depth={2}>
-							<li>시험자리 배정하기</li>
-						</Item>
-						<Item depth={2}>
-							<li>즐거운 XOR</li>
-						</Item>
+						<Item depth={2}>만쥬의 식사</Item>
+						<Item depth={2}>비숍 여행</Item>
+						<Item depth={2}>시험자리 배정하기</Item>
+						<Item depth={2}>즐거운 XOR</Item>
 					</ul>
 					<Item depth={1}>
-						<li>
-							<A href="https://www.acmicpc.net/category/989">KUPC 2023</A> 출제 및 검수
-						</li>
+						<A href="https://www.acmicpc.net/category/989">KUPC 2023</A> 출제 및 검수
 					</Item>
 					<ul>
 						<Item depth={2}>
-							<li>
-								<A href="https://www.acmicpc.net/problem/30463">K-문자열</A>
-							</li>
+							<A href="https://www.acmicpc.net/problem/30463">K-문자열</A>
 						</Item>
 						<Item depth={2}>
-							<li>
-								<A href="https://www.acmicpc.net/problem/30462">MEXchange</A>
-							</li>
+							<A href="https://www.acmicpc.net/problem/30462">MEXchange</A>
 						</Item>
 					</ul>
 				</ul>
