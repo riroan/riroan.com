@@ -1,0 +1,9 @@
+li {
+	list-style-type: '✔';
+	padding-left: 15px;
+	margin-left: 15px;
+}
+
+a:visited {
+	text-decoration: none;
+}

@@ -1,0 +1,22 @@
+.container:link {
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-underline-offset: 2px;
+	text-decoration-thickness: 1px;
+	font-weight: 700;
+}
+
+.container:visited {
+	color: black;
+}
+
+
+.container:hover {
+	transition: 1.2s;
+	cursor: pointer;
+	text-decoration-style: solid;
+}
+
+.container:active {
+	color: yellow;
+}
