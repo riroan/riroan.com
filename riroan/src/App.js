@@ -39,10 +39,10 @@ export default function App() {
 			<H1>WORK EXPERIENCES</H1>
 			<Div>
 				<H2>
-					카카오 <Assist>Server Developer,</Assist> <DateTime>2024. 03. -</DateTime>
+					<A href="https://www.kakaocorp.com/page/">카카오</A> <Assist>Server Developer,</Assist> <DateTime>2024. 03. -</DateTime>
 				</H2>
 				<H2>
-					카카오 (인턴) <Assist>Server Developer,</Assist> <DateTime>2024. 01. - 2024. 03.</DateTime>
+					<A href="https://www.kakaocorp.com/page/">카카오</A> <Assist>Server Developer (Intern),</Assist> <DateTime>2024. 01. - 2024. 02.</DateTime>
 				</H2>
 				<H2>
 					알로카도스 <Assist>Backend Developer,</Assist> <DateTime>2023. 03. - 2023. 12.</DateTime>
