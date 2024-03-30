@@ -93,6 +93,9 @@ export default function App() {
 					<Item depth={1}>
 						<A href="https://riroan.tistory.com/123">Nginx를 사용하여 리버스 프록시 적용</A>, 최대 전송 파일 크기 제한
 					</Item>
+					<Item depth={1}>
+						<A href="https://riroan.tistory.com/124">Certbot을 사용하여 HTTPS 통신</A>
+					</Item>
 					<Item depth={1}>Docker Compose, Github Action을 사용하여 CICD 구성</Item>
 					<Item depth={1}>Spring Data JPA를 사용하여 ORM 적용</Item>
 				</Ul>
