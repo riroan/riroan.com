@@ -288,6 +288,8 @@ export default function App() {
 				<br />
 				깃허브: https://github.com/riroan
 				<br />
+				링크드인: https://www.linkedin.com/in/riroan/
+				<br />
 				백준: https://www.acmicpc.net/user/riroan
 				<br />
 				솔브드: https://solved.ac/profile/riroan
