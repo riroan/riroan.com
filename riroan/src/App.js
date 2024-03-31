@@ -168,6 +168,16 @@ export default function App() {
 					<Item depth={1}>ERP 물류 2급 취득</Item>
 				</Ul>
 			</Div>
+			<Div>
+				<H2>
+					<A href="https://yangkang.sen.ms.kr/">양강중학교</A> <Assist>졸업</Assist>
+				</H2>
+			</Div>
+			<Div>
+				<H2>
+					<A href="https://yangmok.sen.es.kr/">서울양목초등학교</A> <Assist>졸업</Assist>
+				</H2>
+			</Div>
 
 			<H1>SKILLS</H1>
 			<Div>
