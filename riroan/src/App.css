@@ -3,6 +3,17 @@
 .DefaultContainer {
 	background-color: #fff;
 	line-height: 1.4;
-	padding: 50px;
-	font-family: "Pretendard"
+	font-family: 'Pretendard';
+}
+
+@media screen and (min-width: 768px) {
+	.DefaultContainer {
+		padding: 50px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.DefaultContainer {
+		padding: 15px;
+	}
 }
