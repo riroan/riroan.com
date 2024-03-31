@@ -104,7 +104,7 @@ export default function App() {
 					<Item depth={1}>
 						<A href="https://riroan.tistory.com/124">Certbot을 사용하여 HTTPS 통신</A>
 					</Item>
-					<Item depth={1}>Docker Compose, Github Action을 사용하여 CICD 구성</Item>
+					<Item depth={1}>Docker Compose, Github Action을 사용하여 CI/CD 구성</Item>
 					<Item depth={1}>Spring Data JPA를 사용하여 ORM 적용</Item>
 				</Ul>
 			</Div>
@@ -118,7 +118,7 @@ export default function App() {
 				</Refer>
 				<P>건국대학교 학생이 해결하지 않은 백준 문제를 분석하고 리스트를 제공하는 1인 프로젝트입니다. 프론트엔드, 백엔드 개발을 모두 담당했습니다.</P>
 				<Ul display={visible}>
-					<Item depth={1}>Docker Compose, Github Action을 사용하여 CICD 구성</Item>
+					<Item depth={1}>Docker Compose, Github Action을 사용하여 CI/CD 구성</Item>
 					<Item depth={1}>Crontab을 사용하여 주기적인 작업 수행</Item>
 					<Item depth={1}>ACM에서 SSL을 Loadbalancer에 적용하여 HTTPS 통신 및 로드밸런싱</Item>
 				</Ul>
