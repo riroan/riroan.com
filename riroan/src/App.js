@@ -142,29 +142,45 @@ export default function App() {
 
 			<H1>EDUCATION</H1>
 			<Div>
-				<A href="https://cse.konkuk.ac.kr/cse/index.do">건국대학교 컴퓨터공학부</A> 17학번 학사 졸업
-				<br />
+				<H2>
+					<A href="https://www.konkuk.ac.kr/konkuk/index.do">건국대학교</A> <Assist>컴퓨터공학부 17학번 학사 졸업</Assist>
+				</H2>
+				{/* <br /> */}
 				GPA 3.75/4.50 (CSE 3.75/4.50)
 			</Div>
 			<Div>
-				<A href="https://ssls.sen.hs.kr/">서서울생활과학고등학교</A> 국제정보과학과 졸업
+				<H2>
+					<A href="https://ssls.sen.hs.kr/">서서울생활과학고등학교</A> <Assist>국제정보과학과 졸업</Assist>
+				</H2>
 				<Ul display={visible}>
 					<Item depth={1}>2016 MS Office 세계경진대회 한국 대표 선발전 3등상</Item>
+					<Item depth={1}>MOS Word Expert, PPT 취득</Item>
+					<Item depth={1}>정보처리기능사 취득</Item>
+					<Item depth={1}>전산회계 2급 취득</Item>
+					<Item depth={1}>ERP 물류 2급 취득</Item>
 				</Ul>
 			</Div>
 
 			<H1>SKILLS</H1>
 			<Div>
-				<H2>FLUENT</H2>
-				<TechStack>#Python #FastAPI #Django #Docker #Github Action #Slack SDK</TechStack>
+				<H2>Programming Languages</H2>
+				<TechStack>#Python #C++ #Javascript #Typescript #Java</TechStack>
 			</Div>
 			<Div>
-				<H2>SO-SO</H2>
-				<TechStack>#C++ #Java #Javascript #Typescript #Kubernetes #Spring #TensorFlow #React</TechStack>
+				<H2>Frameworks</H2>
+				<TechStack>#FastAPI #Django #Spring #React</TechStack>
 			</Div>
 			<Div>
-				<H2>OTHERS</H2>
-				<TechStack>#Computer Vision #Number Theory #Abstract Algebra #Algebra #Linear Algebra</TechStack>
+				<H2>AI</H2>
+				<TechStack>#TensorFlow #Keras #Computer Vision</TechStack>
+			</Div>
+			<Div>
+				<H2>DevOps</H2>
+				<TechStack>#Docker #Docker-Compose #Kubernetes #Github Action #Nginx</TechStack>
+			</Div>
+			<Div>
+				<H2>Mathematics</H2>
+				<TechStack>#Number Theory #Calculus #Abstract Algebra #Linear Algebra</TechStack>
 			</Div>
 
 			<H1>ACHIEVEMENTS</H1>
