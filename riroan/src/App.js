@@ -8,6 +8,7 @@ import Item from './components/Item'
 import DateTime from './components/DateTime'
 import P from './components/P'
 import TechStack from './components/TechStack'
+import Refer from './components/Refer'
 import Ul from './components/Ul'
 import './App.css'
 
@@ -36,6 +37,7 @@ export default function App() {
 					<Item depth={1}>프로그래밍을 활용하여 문제를 해결하는 것을 좋아합니다.</Item>
 				</Ul>
 			</Div>
+
 			<H1>WORK EXPERIENCES</H1>
 			<Div>
 				<H2>
@@ -54,6 +56,9 @@ export default function App() {
 					APAP <Assist>Abnormal Pattern Alarmer Platform,</Assist> <DateTime>2021. 06. - 2021. 12.</DateTime>
 				</H2>
 				<TechStack>#Python #FastAPI #Pytorch #AWS #Computer Vision #React #Typescript</TechStack>
+				<Refer>
+					<A href="https://www.youtube.com/watch?v=VJRN_Xnvn_0">Demo</A>
+				</Refer>
 				<P>
 					<A href="https://www.swmaestro.org/sw/bbs/B0000006/view.do?nttId=25024&menuNo=200015&pageIndex=5">소프트웨어 마에스트로 12기에서 수행한 프로젝트</A>입니다. CCTV에서 이상행동을
 					감지하는 프로젝트로 Pytorch를 사용한 AI모델 개발/학습/배포를 진행했습니다. 추가로 관리자를 위한 Backoffice 페이지도 개발했습니다.
@@ -88,6 +93,9 @@ export default function App() {
 					MKCloud <DateTime>2023. 01. - 2023. 05.</DateTime>
 				</H2>
 				<TechStack>#Typescript #React #Java #Spring #MySQL #Nginx #Oracle Cloud #Docker #Github Action</TechStack>
+				<Refer>
+					<A href="https://cloud.riroan.com/">Site</A> <A href="https://github.com/riroan/MKCloud">Github</A>
+				</Refer>
 				<P>개인용 스토리지를 편리하게 사용할 수 있도록 개발한 1인 프로젝트입니다. 프론트엔드, 백엔드 개발을 모두 담당했습니다.</P>
 				<Ul display={visible}>
 					<Item depth={1}>
@@ -105,11 +113,14 @@ export default function App() {
 					Kunsolved <DateTime>2022. 04. - 2022. 10.</DateTime>
 				</H2>
 				<TechStack>#Typescript #React #Python #FastAPI #MySQL #AWS #Docker #Github Action</TechStack>
+				<Refer>
+					<A href="https://bj.riroan.com/">Site</A> <A href="https://github.com/riroan/Kunsolved">Github</A>
+				</Refer>
 				<P>건국대학교 학생이 해결하지 않은 백준 문제를 분석하고 리스트를 제공하는 1인 프로젝트입니다. 프론트엔드, 백엔드 개발을 모두 담당했습니다.</P>
 				<Ul display={visible}>
 					<Item depth={1}>Docker Compose, Github Action을 사용하여 CICD 구성</Item>
 					<Item depth={1}>Crontab을 사용하여 주기적인 작업 수행</Item>
-					<Item depth={1}>ACM에서 SSL을 발급하여 Loadbalancer에 적용하여 HTTPS 통신 및 로드밸런싱</Item>
+					<Item depth={1}>ACM에서 SSL을 Loadbalancer에 적용하여 HTTPS 통신 및 로드밸런싱</Item>
 				</Ul>
 			</Div>
 			<Div>
@@ -117,6 +128,9 @@ export default function App() {
 					Lollang <DateTime>2022. 04.</DateTime>
 				</H2>
 				<TechStack>#Python</TechStack>
+				<Refer>
+					<A href="https://playlollang.wonj.in/">Site</A> <A href="https://github.com/riroan/lollang">Github</A>
+				</Refer>
 				<P>만우절을 기념하여 롤에서 사용하는 채팅을 모방하여 프로그래밍하는 난해한 프로그래밍 언어를 개발했습니다.</P>
 				<Ul display={visible}>
 					<Item depth={1}>문법 정의 및 로직 구현</Item>
@@ -125,12 +139,20 @@ export default function App() {
 					</Item>
 				</Ul>
 			</Div>
+
 			<H1>EDUCATION</H1>
 			<Div>
 				<A href="https://cse.konkuk.ac.kr/cse/index.do">건국대학교 컴퓨터공학부</A> 17학번 학사 졸업
 				<br />
 				GPA 3.75/4.50 (CSE 3.75/4.50)
 			</Div>
+			<Div>
+				<A href="https://ssls.sen.hs.kr/">서서울생활과학고등학교</A> 국제정보과학과 졸업
+				<Ul display={visible}>
+					<Item depth={1}>2016 MS Office 세계경진대회 한국 대표 선발전 3등상</Item>
+				</Ul>
+			</Div>
+
 			<H1>SKILLS</H1>
 			<Div>
 				<H2>FLUENT</H2>
@@ -144,6 +166,7 @@ export default function App() {
 				<H2>OTHERS</H2>
 				<TechStack>#Computer Vision #Number Theory #Abstract Algebra #Algebra #Linear Algebra</TechStack>
 			</Div>
+
 			<H1>ACHIEVEMENTS</H1>
 			<Div>
 				<H2>
@@ -209,6 +232,7 @@ export default function App() {
 					<Item>2022, 1회차 금손 취득</Item>
 				</Ul>
 			</Div>
+
 			<H1>ALGORITHM EXPERIENCES</H1>
 			<Div>
 				<H2>
@@ -280,6 +304,7 @@ export default function App() {
 					</Ul>
 				</Ul>
 			</Div>
+
 			<H1>ACTIVITIES</H1>
 			<Div>
 				<H2>
@@ -301,6 +326,7 @@ export default function App() {
 				</H2>
 				<P>SW 개발병으로 군 복무를 수행했습니다.</P>
 			</Div>
+
 			<H1>GAMES</H1>
 			<Div>
 				리그오브레전드: <A href="https://www.op.gg/summoners/kr/%EB%AA%85%EA%B8%B0%EB%AA%85%EA%B8%B0%EA%B9%80%EB%AA%85%EA%B8%B0-KMG">명기명기김명기#KMG</A>,{' '}
@@ -308,6 +334,7 @@ export default function App() {
 				<br />
 				메이플스토리: <A href="https://maple.gg/u/%ED%95%99%EB%8B%A4%EB%A6%AC%EC%A0%91%EA%B8%B0">학다리접기</A>
 			</Div>
+
 			<H1>CONTACT WITH ME</H1>
 			<Div>
 				<A href="mail://riroan@naver.com">이메일</A>
