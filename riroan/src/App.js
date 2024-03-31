@@ -11,6 +11,7 @@ import TechStack from './components/TechStack'
 import Refer from './components/Refer'
 import Ul from './components/Ul'
 import './App.css'
+import Link from './components/Link'
 
 export default function App() {
 	const [visible, setVisible] = useState(true)
@@ -353,25 +354,36 @@ export default function App() {
 
 			<H1>CONTACT WITH ME</H1>
 			<Div>
-				<A href="mail://riroan@naver.com">이메일</A>
-				<br />
-				<A href="https://riroan.tistory.com">블로그</A>
-				<br />
-				<A href="https://www.instagram.com/dding_gi_98">인스타그램</A>
-				<br />
-				<A href="https://github.com/riroan">깃허브</A>
-				<br />
-				<A href="https://www.linkedin.com/in/riroan/">링크드인</A>
-				<br />
-				<A href="https://www.acmicpc.net/user/riroan">백준</A>
-				<br />
-				<A href="https://solved.ac/profile/riroan">솔브드</A>
-				<br />
-				<A href="https://codeforces.com/profile/">코드포스</A>
-				<br />
-				<A href="https://atcoder.jp/users/riroan">앳코더</A>
-				<br />
-				<A href="https://profiles.topcoder.com/riroan">탑코더</A>
+				<Link desc="riroan@naver.com">
+					<A href="mailto:riroan@naver.com">이메일</A>
+				</Link>
+				<Link desc="riroan.tistory.com">
+					<A href="https://riroan.tistory.com">블로그</A>
+				</Link>
+				<Link desc="@dding_gi_98">
+					<A href="https://www.instagram.com/dding_gi_98">인스타그램</A>
+				</Link>
+				<Link desc="riroan">
+					<A href="https://github.com/riroan">깃허브</A>
+				</Link>
+				<Link desc="riroan">
+					<A href="https://www.linkedin.com/in/riroan/">링크드인</A>
+				</Link>
+				<Link desc="riroan">
+					<A href="https://www.acmicpc.net/user/riroan">백준</A>
+				</Link>
+				<Link desc="riroan">
+					<A href="https://solved.ac/profile/riroan">솔브드</A>
+				</Link>
+				<Link desc="riroan">
+					<A href="https://codeforces.com/profile/">코드포스</A>
+				</Link>
+				<Link desc="riroan">
+					<A href="https://atcoder.jp/users/riroan">앳코더</A>
+				</Link>
+				<Link desc="riroan">
+					<A href="https://profiles.topcoder.com/riroan">탑코더</A>
+				</Link>
 			</Div>
 		</div>
 	)
