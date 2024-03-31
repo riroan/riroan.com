@@ -369,39 +369,60 @@ export default function App() {
 				<A href="https://www.op.gg/summoners/kr/%EB%9D%B5%EA%B8%B0%EB%AA%85%EA%B8%B0%EA%B9%80%EB%AA%85%EA%B8%B0-KR1">띵기명기김명기#KR1</A>
 				<br />
 				메이플스토리: <A href="https://maple.gg/u/%ED%95%99%EB%8B%A4%EB%A6%AC%EC%A0%91%EA%B8%B0">학다리접기</A>
+				<Assist>@리부트</Assist>
 			</Div>
 
 			<H1>CONTACT WITH ME</H1>
 			<Div>
 				<Link desc="riroan@naver.com">
-					<A href="mailto:riroan@naver.com">이메일</A>
+					<A href="mailto:riroan@naver.com" style={{ color: '#FE0C50' }}>
+						이메일
+					</A>
 				</Link>
 				<Link desc="riroan.tistory.com">
-					<A href="https://riroan.tistory.com">블로그</A>
+					<A href="https://riroan.tistory.com" style={{ color: '#FF5A4A' }}>
+						블로그
+					</A>
 				</Link>
 				<Link desc="@dding_gi_98">
-					<A href="https://www.instagram.com/dding_gi_98">인스타그램</A>
+					<A href="https://www.instagram.com/dding_gi_98" style={{ color: '#DD2A7B' }}>
+						인스타그램
+					</A>
 				</Link>
 				<Link desc="riroan">
-					<A href="https://github.com/riroan">깃허브</A>
+					<A href="https://github.com/riroan" style={{ color: '#171515' }}>
+						깃허브
+					</A>
 				</Link>
 				<Link desc="riroan">
-					<A href="https://www.linkedin.com/in/riroan/">링크드인</A>
+					<A href="https://www.linkedin.com/in/riroan/" style={{ color: '#0276A8' }}>
+						링크드인
+					</A>
 				</Link>
 				<Link desc="riroan">
-					<A href="https://www.acmicpc.net/user/riroan">백준</A>
+					<A href="https://www.acmicpc.net/user/riroan" style={{ color: '#0078C2' }}>
+						백준
+					</A>
 				</Link>
 				<Link desc="riroan">
-					<A href="https://solved.ac/profile/riroan">솔브드</A>
+					<A href="https://solved.ac/profile/riroan" style={{ color: '#17CE3A' }}>
+						솔브드
+					</A>
 				</Link>
 				<Link desc="riroan">
-					<A href="https://codeforces.com/profile/">코드포스</A>
+					<A href="https://codeforces.com/profile/" style={{ color: '#425E9C' }}>
+						코드포스
+					</A>
 				</Link>
 				<Link desc="riroan">
-					<A href="https://atcoder.jp/users/riroan">앳코더</A>
+					<A href="https://atcoder.jp/users/riroan" style={{ color: '#222222' }}>
+						앳코더
+					</A>
 				</Link>
 				<Link desc="riroan">
-					<A href="https://profiles.topcoder.com/riroan">탑코더</A>
+					<A href="https://profiles.topcoder.com/riroan" style={{ color: '#2A2A2A' }}>
+						탑코더
+					</A>
 				</Link>
 			</Div>
 		</div>
