@@ -344,6 +344,25 @@ export default function App() {
 				<P>SW 개발병으로 군 복무를 수행했습니다.</P>
 			</Div>
 
+			<H1>CERTIFICATES</H1>
+			<Div>
+				<H2>
+					정보처리기사 <Assist>2022. 09.</Assist>
+				</H2>
+			</Div>
+			<Div>
+				<H2>
+					TOPCIT <Assist>2021. 10.</Assist>
+				</H2>
+				<P>553점</P>
+			</Div>
+			<Div>
+				<H2>
+					OPIC <Assist>2023. 09.</Assist>
+				</H2>
+				<P>IM2</P>
+			</Div>
+
 			<H1>GAMES</H1>
 			<Div>
 				리그오브레전드: <A href="https://www.op.gg/summoners/kr/%EB%AA%85%EA%B8%B0%EB%AA%85%EA%B8%B0%EA%B9%80%EB%AA%85%EA%B8%B0-KMG">명기명기김명기#KMG</A>,{' '}
