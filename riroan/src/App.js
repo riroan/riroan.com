@@ -120,7 +120,7 @@ export default function App() {
 				<Ul display={visible}>
 					<Item depth={1}>Docker Compose, Github Action을 사용하여 CI/CD 구성</Item>
 					<Item depth={1}>Crontab을 사용하여 주기적인 작업 수행</Item>
-					<Item depth={1}>ACM에서 SSL을 Loadbalancer에 적용하여 HTTPS 통신 및 로드밸런싱</Item>
+					<Item depth={1}>ACM에서 SSL을 발급받아 Loadbalancer에 적용하여 HTTPS 통신 및 로드밸런싱</Item>
 				</Ul>
 			</Div>
 			<Div>
