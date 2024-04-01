@@ -375,7 +375,7 @@ export default function App() {
 			</Div>
 			<Div>
 				<H2>
-					OPIC <Assist>2023. 09.</Assist>
+					OPIC <Assist>2022. 09.</Assist>
 				</H2>
 				<P>IM2</P>
 			</Div>
