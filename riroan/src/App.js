@@ -67,6 +67,10 @@ export default function App() {
 				<Ul display={visible}>
 					<Item depth={1}>CI/CD/CT 파이프라인 구성</Item>
 					<Item depth={1}>Backbone Network 개선, Data augmentation, Fine tuning 학습 기법을 통해 탐지율 85% → 93% 개선</Item>
+					<Ul display={visible}>
+						<Item depth={2}>좌우 반전, 각도 회전 등 다양한 augmentation 기법으로 훈련 데이터 8배 이상 확보</Item>
+						<Item depth={2}>F1 score, ROC등 다양한 metric을 통해 하이퍼 파라미터 튜닝</Item>
+					</Ul>
 					<Item depth={1}>모델 개발을 위한 SOTA 논문 정독 및 적용</Item>
 					<Ul display={visible}>
 						<Item depth={2}>
@@ -128,7 +132,9 @@ export default function App() {
 						<A href="https://www.chartjs.org/">Chart.js</A>를 사용하여 해결 문제 수 시각화
 					</Item>
 					<Item depth={1}>Pagination을 사용하여 효율적으로 목록 제공</Item>
-					<Item depth={1}>ACM에서 SSL을 발급받아 Loadbalancer에 적용하여 HTTPS 통신 및 로드밸런싱</Item>
+					<Item depth={1}>
+						<A href="https://aws.amazon.com/ko/certificate-manager/">ACM</A>에서 SSL을 발급받아 Loadbalancer에 적용하여 HTTPS 통신 및 로드밸런싱
+					</Item>
 				</Ul>
 			</Div>
 			<Div>
@@ -387,7 +393,7 @@ export default function App() {
 				<br />
 				메이플스토리: <A href="https://maple.gg/u/%ED%95%99%EB%8B%A4%EB%A6%AC%EC%A0%91%EA%B8%B0">학다리접기</A>
 				<Assist>@리부트</Assist>
-				<br/>
+				<br />
 				배틀넷: 하스스톤#33537
 			</Div>
 
