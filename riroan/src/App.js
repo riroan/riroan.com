@@ -375,7 +375,7 @@ export default function App() {
 			</Div>
 			<Div>
 				<H2>
-					OPIC <Assist>2022. 09.</Assist>
+					OPIC <Assist>2023. 09.</Assist>
 				</H2>
 				<P>IM2</P>
 			</Div>
@@ -387,6 +387,8 @@ export default function App() {
 				<br />
 				메이플스토리: <A href="https://maple.gg/u/%ED%95%99%EB%8B%A4%EB%A6%AC%EC%A0%91%EA%B8%B0">학다리접기</A>
 				<Assist>@리부트</Assist>
+				<br/>
+				배틀넷: 하스스톤#33537
 			</Div>
 
 			<H1>CONTACT WITH ME</H1>
