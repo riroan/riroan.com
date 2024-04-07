@@ -370,20 +370,34 @@ export default function App() {
 			<H1>CERTIFICATES</H1>
 			<Div>
 				<H2>
+					PCCP Lv4 <Assist>2022. 11.</Assist>
+				</H2>
+				<P>Python3로 817점 취득</P>
+			</Div>
+			<Div>
+				<H2>
 					정보처리기사 <Assist>2022. 09.</Assist>
 				</H2>
+			</Div>
+			<Div>
+				<H2>
+					OPIC <Assist>2022. 09.</Assist>
+				</H2>
+				<P>IM2</P>
+			</Div>
+			<Div>
+				<H2>
+					TOSC 1급 <Assist>2022. 04.</Assist>
+				</H2>
+				<P>
+					제 1회 <A href="https://tosc.sejong.ac.kr/">TOSC</A>에서 최고점 취득
+				</P>
 			</Div>
 			<Div>
 				<H2>
 					TOPCIT <Assist>2021. 10.</Assist>
 				</H2>
 				<P>553점</P>
-			</Div>
-			<Div>
-				<H2>
-					OPIC <Assist>2023. 09.</Assist>
-				</H2>
-				<P>IM2</P>
 			</Div>
 
 			<H1>GAMES</H1>
