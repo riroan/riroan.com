@@ -259,7 +259,9 @@ export default function App() {
 				</Ul>
 			</Div>
 			<Div>
-				<H2>탑 프로그래머스</H2>
+				<H2>
+					<A href="https://career.programmers.co.kr/top_programmers/introduce">탑 프로그래머스</A>
+				</H2>
 				<Ul display={visible}>
 					<Item>
 						<A href="https://riroan.tistory.com/86">2022, 탑 프로그래머스 취득</A>
@@ -318,7 +320,7 @@ export default function App() {
 			</Div>
 			<Div>
 				<H2>
-					KUPC <Assist>Konkuk University Programming Contest</Assist>
+					<A href="https://www.acmicpc.net/category/454">KUPC</A> <Assist>Konkuk University Programming Contest</Assist>
 				</H2>
 				<P>건국대학교에서 개최한 알고리즘 문제 해결 대회입니다.</P>
 				<Ul display={visible}>
