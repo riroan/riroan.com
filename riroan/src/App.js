@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { UseDispatch, useDispatch } from 'react-redux'
 import A from './components/A'
 import Assist from './components/Assist'
 import Div from './components/Div'
@@ -12,11 +13,20 @@ import Refer from './components/Refer'
 import Ul from './components/Ul'
 import './App.css'
 import Link from './components/Link'
+import { darkmodeActions } from './app/darkmodeSlice';
 
 export default function App() {
 	const [visible, setVisible] = useState(true)
+	const dispatch = useDispatch()
 	return (
 		<div className="DefaultContainer">
+			<button
+				onClick={() => {
+					dispatch(darkmodeActions.toggle());
+				}}
+			>
+				Dark Mode
+			</button>
 			<Div>
 				<H2>
 					김명기<Assist> riroan</Assist>
