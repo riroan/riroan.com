@@ -52,6 +52,13 @@ export default function App() {
 				</H2>
 			</Div>
 			<H1>PROJECTS</H1>
+			{/* <button
+				onClick={() => {
+					setVisible(!visible)
+				}}
+			>
+				Click me
+			</button> */}
 			<Div>
 				<H2>
 					APAP <Assist>Abnormal Pattern Alarmer Platform,</Assist> <DateTime>2021. 06. - 2021. 12.</DateTime>
@@ -65,7 +72,9 @@ export default function App() {
 					감지하는 프로젝트로 Pytorch를 사용한 AI모델 개발/학습/배포를 진행했습니다. 추가로 관리자를 위한 Backoffice 페이지도 개발했습니다.
 				</P>
 				<Ul display={visible}>
-					<Item depth={1}>CI/CD/CT 파이프라인 구성</Item>
+					<Item display={visible} depth={1}>
+						CI/CD/CT 파이프라인 구성
+					</Item>
 					<Item depth={1}>Backbone Network 개선, Data augmentation, Fine tuning 학습 기법을 통해 탐지율 85% → 93% 개선</Item>
 					<Ul display={visible}>
 						<Item depth={2}>좌우 반전, 각도 회전 등 다양한 augmentation 기법으로 훈련 데이터 8배 이상 확보</Item>
@@ -212,7 +221,7 @@ export default function App() {
 				<H2>
 					<A href="https://icpc.global/">ICPC</A> <Assist>International Collegiate Programming Contest</Assist>
 				</H2>
-				<Ul display={visible}>
+				<Ul display={true}>
 					<Item depth={1}>
 						<A href="https://riroan.tistory.com/88">2022, Asia Seoul Regional Contest</A>
 					</Item>
@@ -223,7 +232,7 @@ export default function App() {
 				<H2>
 					<A href="https://www.facebook.com/codingcompetitions/hacker-cup">Meta Hacker Cup</A>
 				</H2>
-				<Ul display={visible}>
+				<Ul display={true}>
 					<Item>2023, Competed in Round 2</Item>
 					<Item>
 						<A href="https://riroan.tistory.com/85">2022, Competed in Round 2</A>
@@ -234,7 +243,7 @@ export default function App() {
 				<H2>
 					<A href="https://ucpc.me/">UCPC</A> <Assist>전국 대학생 프로그래밍 대회</Assist>
 				</H2>
-				<Ul display={visible}>
+				<Ul display={true}>
 					<Item>
 						<A href="https://riroan.tistory.com/71">
 							2022, 41<sup>th</sup> place
@@ -244,7 +253,7 @@ export default function App() {
 			</Div>
 			<Div>
 				<H2>엘리스 코드 챌린지</H2>
-				<Ul display={visible}>
+				<Ul display={true}>
 					<Item>
 						<A href="https://riroan.tistory.com/166">2023, 최우수상</A>
 					</Item>
@@ -252,7 +261,7 @@ export default function App() {
 			</Div>
 			<Div>
 				<H2>현대모비스 알고리즘 경진대회</H2>
-				<Ul display={visible}>
+				<Ul display={true}>
 					<Item>
 						<A href="https://riroan.tistory.com/151">2023, 장려상</A>
 					</Item>
@@ -262,7 +271,7 @@ export default function App() {
 				<H2>
 					<A href="https://career.programmers.co.kr/top_programmers/introduce">탑 프로그래머스</A>
 				</H2>
-				<Ul display={visible}>
+				<Ul display={true}>
 					<Item>
 						<A href="https://riroan.tistory.com/86">2022, 탑 프로그래머스 취득</A>
 					</Item>
@@ -270,7 +279,7 @@ export default function App() {
 			</Div>
 			<Div>
 				<H2>쇼미더 코드</H2>
-				<Ul display={visible}>
+				<Ul display={true}>
 					<Item>2022, 1회차 금손 취득</Item>
 				</Ul>
 			</Div>
@@ -323,7 +332,7 @@ export default function App() {
 					<A href="https://www.acmicpc.net/category/454">KUPC</A> <Assist>Konkuk University Programming Contest</Assist>
 				</H2>
 				<P>건국대학교에서 개최한 알고리즘 문제 해결 대회입니다.</P>
-				<Ul display={visible}>
+				<Ul display={true}>
 					<Item depth={1}>
 						<A href="http://scoreboard.riroan.com/problemset.pdf">KUPC 2022</A> 운영, 출제 및 검수
 					</Item>
