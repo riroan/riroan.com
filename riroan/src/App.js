@@ -20,13 +20,13 @@ export default function App() {
 	const dispatch = useDispatch()
 	return (
 		<div className="DefaultContainer">
-			<button
+			{/* <button
 				onClick={() => {
 					dispatch(darkmodeActions.toggle());
 				}}
 			>
 				Dark Mode
-			</button>
+			</button> */}
 			<Div>
 				<H2>
 					김명기<Assist> riroan</Assist>
