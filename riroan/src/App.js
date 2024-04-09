@@ -1,5 +1,5 @@
 import React from 'react'
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 import A from './components/A'
 import Assist from './components/Assist'
 import Div from './components/Div'
@@ -14,10 +14,8 @@ import Ul from './components/Ul'
 import Link from './components/Link'
 import UtilitySet from './components/UtilitySet'
 import './App.css'
-import { detailActions } from './app/detailSlice'
 
 export default function App() {
-	const dispatch = useDispatch()
 	const darkmode = useSelector(state => state.darkmode.darkmode)
 	const detail = useSelector(state=>state.detail.detail)
 	return (
