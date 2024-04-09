@@ -20,7 +20,6 @@ export default function App() {
 	const detail = useSelector(state=>state.detail.detail)
 	return (
 		<div className={['DefaultContainer', darkmode].join(' ')}>
-			<UtilitySet />
 			<div className={'innerContainer'}>
 				<Div>
 					<H2>
@@ -474,6 +473,7 @@ export default function App() {
 					</Link>
 				</Div>
 			</div>
+			<UtilitySet />
 		</div>
 	)
 }
