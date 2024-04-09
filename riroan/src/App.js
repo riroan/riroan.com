@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { useSelector } from 'react-redux'
+import React from 'react'
+import { useSelector, useDispatch } from 'react-redux'
 import A from './components/A'
 import Assist from './components/Assist'
 import Div from './components/Div'
@@ -12,15 +12,17 @@ import TechStack from './components/TechStack'
 import Refer from './components/Refer'
 import Ul from './components/Ul'
 import Link from './components/Link'
-import Utility from './components/Utility'
+import UtilitySet from './components/UtilitySet'
 import './App.css'
+import { detailActions } from './app/detailSlice'
 
 export default function App() {
-	const [visible, setVisible] = useState(true)
+	const dispatch = useDispatch()
 	const darkmode = useSelector(state => state.darkmode.darkmode)
+	const detail = useSelector(state=>state.detail.detail)
 	return (
 		<div className={['DefaultContainer', darkmode].join(' ')}>
-			<Utility />
+			<UtilitySet />
 			<div className={'innerContainer'}>
 				<Div>
 					<H2>
@@ -57,13 +59,6 @@ export default function App() {
 					</H2>
 				</Div>
 				<H1>PROJECTS</H1>
-				{/* <button
-				onClick={() => {
-					setVisible(!visible)
-				}}
-			>
-				Click me
-			</button> */}
 				<Div>
 					<H2>
 						APAP <Assist>Abnormal Pattern Alarmer Platform,</Assist> <DateTime>2021. 06. - 2021. 12.</DateTime>
@@ -76,17 +71,17 @@ export default function App() {
 						<A href="https://www.swmaestro.org/sw/bbs/B0000006/view.do?nttId=25024&menuNo=200015&pageIndex=5">소프트웨어 마에스트로 12기에서 수행한 프로젝트</A>입니다. CCTV에서 이상행동을
 						감지하는 프로젝트로 Pytorch를 사용한 AI모델 개발/학습/배포를 진행했습니다. 추가로 관리자를 위한 Backoffice 페이지도 개발했습니다.
 					</P>
-					<Ul display={visible}>
-						<Item display={visible} depth={1}>
+					<Ul display={detail}>
+						<Item display={detail} depth={1}>
 							CI/CD/CT 파이프라인 구성
 						</Item>
 						<Item depth={1}>Backbone Network 개선, Data augmentation, Fine tuning 학습 기법을 통해 탐지율 85% → 93% 개선</Item>
-						<Ul display={visible}>
+						<Ul display={detail}>
 							<Item depth={2}>좌우 반전, 각도 회전 등 다양한 augmentation 기법으로 훈련 데이터 8배 이상 확보</Item>
 							<Item depth={2}>F1 score, ROC등 다양한 metric을 통해 하이퍼 파라미터 튜닝</Item>
 						</Ul>
 						<Item depth={1}>모델 개발을 위한 SOTA 논문 정독 및 적용</Item>
-						<Ul display={visible}>
+						<Ul display={detail}>
 							<Item depth={2}>
 								<A href="https://github.com/MVIG-SJTU/AlphAction">AlphAction</A>
 							</Item>
@@ -101,7 +96,7 @@ export default function App() {
 							<A href="https://atomicdesign.bradfrost.com/chapter-2/">Atomic Design Pattern</A>을 사용하여 Backoffice 페이지 구현
 						</Item>
 						<Item depth={1}>Agile 개발 방법론 사용</Item>
-						<Ul display={visible}>
+						<Ul display={detail}>
 							<Item depth={2}>데일리 스크럼 수행</Item>
 							<Item depth={2}>2주단위 스프린트 4회 진행</Item>
 						</Ul>
@@ -116,7 +111,7 @@ export default function App() {
 						<A href="https://cloud.riroan.com/">Site</A> <A href="https://github.com/riroan/MKCloud">Github</A>
 					</Refer>
 					<P>개인용 스토리지를 편리하게 사용할 수 있도록 개발한 1인 프로젝트입니다. 프론트엔드, 백엔드 개발을 모두 담당했습니다.</P>
-					<Ul display={visible}>
+					<Ul display={detail}>
 						<Item depth={1}>
 							<A href="https://riroan.tistory.com/123">Nginx를 사용하여 리버스 프록시 적용</A>, 최대 전송 파일 크기 제한
 						</Item>
@@ -139,7 +134,7 @@ export default function App() {
 						<A href="https://bj.riroan.com/">Site</A> <A href="https://github.com/riroan/Kunsolved">Github</A>
 					</Refer>
 					<P>건국대학교 학생이 해결하지 않은 백준 문제를 분석하고 리스트를 제공하는 1인 프로젝트입니다. 프론트엔드, 백엔드 개발을 모두 담당했습니다.</P>
-					<Ul display={visible}>
+					<Ul display={detail}>
 						<Item depth={1}>Docker Compose, Github Action을 사용하여 CI/CD 구성</Item>
 						<Item depth={1}>Crontab을 사용하여 주기적인 작업 수행</Item>
 						<Item depth={1}>
@@ -160,7 +155,7 @@ export default function App() {
 						<A href="https://playlollang.wonj.in/">Site</A> <A href="https://github.com/riroan/lollang">Github</A>
 					</Refer>
 					<P>만우절을 기념하여 롤에서 사용하는 채팅을 모방하여 프로그래밍하는 난해한 프로그래밍 언어를 개발했습니다.</P>
-					<Ul display={visible}>
+					<Ul display={detail}>
 						<Item depth={1}>문법 정의 및 로직 구현</Item>
 						<Item depth={1}>
 							<A href="https://github.com/riroan/lollang/wiki/lollang-Grammar">롤랭 위키</A> 작성
@@ -180,7 +175,7 @@ export default function App() {
 					<H2>
 						<A href="https://ssls.sen.hs.kr/">서서울생활과학고등학교</A> <Assist>국제정보과학과 졸업</Assist>
 					</H2>
-					<Ul display={visible}>
+					<Ul display={detail}>
 						<Item depth={1}>2016 MS Office 세계경진대회 한국 대표 선발전 3등상</Item>
 						<Item depth={1}>MOS Word Expert, PPT 취득</Item>
 						<Item depth={1}>정보처리기능사 취득</Item>
@@ -341,7 +336,7 @@ export default function App() {
 						<Item depth={1}>
 							<A href="http://scoreboard.riroan.com/problemset.pdf">KUPC 2022</A> 운영, 출제 및 검수
 						</Item>
-						<Ul display={visible}>
+						<Ul display={detail}>
 							<Item depth={2}>만쥬의 식사</Item>
 							<Item depth={2}>비숍 여행</Item>
 							<Item depth={2}>시험자리 배정하기</Item>
@@ -350,7 +345,7 @@ export default function App() {
 						<Item depth={1}>
 							<A href="https://www.acmicpc.net/category/989">KUPC 2023</A> 출제 및 검수
 						</Item>
-						<Ul display={visible}>
+						<Ul display={detail}>
 							<Item depth={2}>
 								<A href="https://www.acmicpc.net/problem/30463">K-문자열</A>
 							</Item>
