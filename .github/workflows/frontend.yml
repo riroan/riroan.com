@@ -22,5 +22,4 @@ jobs:
           script: |
             cd ~/riroan.com/riroan
             git pull
-            yarn install
             yarn build
