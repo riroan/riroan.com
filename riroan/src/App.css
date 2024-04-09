@@ -2,13 +2,16 @@
 
 .DefaultContainer {
 	background-color: #fff;
+	color: #000;
 	line-height: 1.4;
 	font-family: 'Pretendard';
+	transition: background-color 0.3s ease 0s, color 0.4s ease 0s;
 }
 
 .darkmode {
 	background-color: #1f1f1f;
 	color: #fafafa;
+	transition: background-color 0.3s ease 0s, color 0.4s ease 0s;
 }
 
 @media screen and (min-width: 768px) {
