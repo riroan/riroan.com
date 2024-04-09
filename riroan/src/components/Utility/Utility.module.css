@@ -1,0 +1,43 @@
+.container {
+	background-color: #f7f7f7;
+	position: fixed;
+	border: solid 1px #999;
+	color: #151515;
+	box-shadow: 0px 0px 5px #aaa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		height: 70px;
+		width: 70px;
+		line-height: 70px;
+		right: 50px;
+		bottom: 50px;
+		border-radius: 35px;
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		height: 40px;
+		width: 40px;
+		line-height: 40px;
+		right: 30px;
+		bottom: 30px;
+		border-radius: 35px;
+		font-size: 20px;
+	}
+}
+
+.container:hover {
+	cursor: pointer;
+}
+
+.darkmode {
+	background-color: #1a1a1a;
+	color: #eee;
+}
