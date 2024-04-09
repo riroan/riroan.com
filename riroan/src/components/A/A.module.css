@@ -17,9 +17,8 @@
 	text-decoration-style: solid;
 }
 
-.container:active {
-	color: yellow;
-}
+/* .container:active {
+} */
 
 .darkmode:link {
 	color: #fafafa;
