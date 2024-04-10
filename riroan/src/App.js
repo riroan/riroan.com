@@ -66,11 +66,14 @@ export default function App() {
 					</Refer>
 					<P>
 						<A href="https://www.swmaestro.org/sw/bbs/B0000006/view.do?nttId=25024&menuNo=200015&pageIndex=5">소프트웨어 마에스트로 12기에서 수행한 프로젝트</A>입니다. CCTV에서 이상행동을
-						감지하는 프로젝트로 Pytorch를 사용한 AI모델 개발/학습/배포를 진행했습니다. 추가로 관리자를 위한 Backoffice 페이지도 개발했습니다.
+						감지하면 관리자에게 알림을 보내고 관리자가 직접 이상행동을 정의할 수 있는 프로젝트입니다. Pytorch를 사용하여 AI모델 개발/학습/배포와 Backoffice페이지 개발을 담당했습니다.
 					</P>
 					<Ul display={detail}>
 						<Item display={detail} depth={1}>
 							CI/CD/CT 파이프라인 구성
+						</Item>
+						<Item display={detail} depth={1}>
+							관리자가 적은 양의 데이터로 이상행동을 정의할 수 있도록 Few-shot learning 기법 적용
 						</Item>
 						<Item display={detail} depth={1}>
 							실시간 추론 환경에서 30FPS인 CCTV와 15FPS인 모델의 처리 속도 차이를 프레임 스킵 기법 적용
