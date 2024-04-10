@@ -405,7 +405,7 @@ export default function App() {
 					<H2>
 						TOPCIT <Assist>2021. 10.</Assist>
 					</H2>
-					<P>553점</P>
+					<P>553점 수준 3 (능숙형)</P>
 				</Div>
 
 				<H1>GAMES</H1>
