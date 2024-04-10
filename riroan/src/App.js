@@ -181,9 +181,10 @@ export default function App() {
 					<Ul display={detail}>
 						<Item depth={1}>2016 MS Office 세계경진대회 한국 대표 선발전 3등상</Item>
 						<Item depth={1}>MOS Word Expert, PPT 취득</Item>
+						<Item depth={1}>ITQ 엑셀/액세스 A등급 취득</Item>
 						<Item depth={1}>정보처리기능사 취득</Item>
 						<Item depth={1}>전산회계 2급 취득</Item>
-						<Item depth={1}>ERP 물류 2급 취득</Item>
+						<Item depth={1}>ERP 정보관리사 물류 2급 취득</Item>
 					</Ul>
 				</Div>
 				<Div>
@@ -195,6 +196,10 @@ export default function App() {
 					<H2>
 						<A href="https://yangmok.sen.es.kr/">서울양목초등학교</A> <Assist>졸업</Assist>
 					</H2>
+					<Ul display={detail}>
+						<Item depth={1}>ITQ 한글/파워포인트 A등급 취득</Item>
+						<Item depth={1}>워드프로세서 취득</Item>
+					</Ul>
 				</Div>
 
 				<H1>SKILLS</H1>
