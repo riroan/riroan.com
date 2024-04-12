@@ -76,7 +76,7 @@ export default function App() {
 							관리자가 적은 양의 데이터로 이상행동을 정의할 수 있도록 Few-shot learning 기법 적용
 						</Item>
 						<Item display={detail} depth={1}>
-							실시간 추론 환경에서 30FPS인 CCTV와 15FPS인 모델의 처리 속도 차이를 프레임 스킵 기법 적용
+							실시간 추론 환경에서 30FPS인 CCTV와 15FPS인 모델의 처리 속도 차이를 개선하기 위해 프레임 스킵 기법 적용
 						</Item>
 						<Item depth={1}>Backbone Network 개선, Data augmentation, Fine tuning 학습 기법을 통해 탐지율 85% → 93% 개선</Item>
 						<Ul display={detail}>
