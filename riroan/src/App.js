@@ -17,7 +17,7 @@ import './App.css'
 
 export default function App() {
 	const darkmode = useSelector(state => state.darkmode.darkmode)
-	const detail = useSelector(state=>state.detail.detail)
+	const detail = useSelector(state => state.detail.detail)
 	return (
 		<div className={['DefaultContainer', darkmode].join(' ')}>
 			<div className={'innerContainer'}>
@@ -421,13 +421,30 @@ export default function App() {
 
 				<H1>GAMES</H1>
 				<Div>
-					리그오브레전드: <A href="https://www.op.gg/summoners/kr/%EB%AA%85%EA%B8%B0%EB%AA%85%EA%B8%B0%EA%B9%80%EB%AA%85%EA%B8%B0-KMG">명기명기김명기#KMG</A>,{' '}
-					<A href="https://www.op.gg/summoners/kr/%EB%9D%B5%EA%B8%B0%EB%AA%85%EA%B8%B0%EA%B9%80%EB%AA%85%EA%B8%B0-KR1">띵기명기김명기#KR1</A>
-					<br />
-					메이플스토리: <A href="https://maple.gg/u/%ED%95%99%EB%8B%A4%EB%A6%AC%EC%A0%91%EA%B8%B0">학다리접기</A>
-					<Assist>@리부트</Assist>
-					<br />
-					배틀넷: 하스스톤#33537
+					<H2>리그오브레전드</H2>
+					<Ul display={true}>
+						<Item depth={1}>
+							<A href="https://www.op.gg/summoners/kr/%EB%AA%85%EA%B8%B0%EB%AA%85%EA%B8%B0%EA%B9%80%EB%AA%85%EA%B8%B0-KMG">명기명기김명기#KMG</A>
+						</Item>
+						<Item depth={1}>
+							<A href="https://www.op.gg/summoners/kr/%EB%9D%B5%EA%B8%B0%EB%AA%85%EA%B8%B0%EA%B9%80%EB%AA%85%EA%B8%B0-KR1">띵기명기김명기#KR1</A>
+						</Item>
+					</Ul>
+				</Div>
+				<Div>
+					<H2>메이플스토리</H2>
+					<Ul display={true}>
+						<Item depth={1}>
+							<A href="https://maple.gg/u/%ED%95%99%EB%8B%A4%EB%A6%AC%EC%A0%91%EA%B8%B0">학다리접기</A>
+							<Assist>@리부트</Assist>
+						</Item>
+					</Ul>
+				</Div>
+				<Div>
+					<H2>배틀넷</H2>
+					<Ul display={true}>
+						<Item depth={1}>하스스톤#33537</Item>
+					</Ul>
 				</Div>
 
 				<H1>CONTACT WITH ME</H1>
