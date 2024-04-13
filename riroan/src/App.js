@@ -40,6 +40,7 @@ export default function App() {
 						<Item depth={1}>What보다는 How와 Why를 중요하게 생각합니다.</Item>
 						<Item depth={1}>알고 있는 지식을 알려주고 배우며 함께 성장하는 것을 지향합니다.</Item>
 						<Item depth={1}>프로그래밍을 활용하여 문제를 해결하는 것을 좋아합니다.</Item>
+						<Item depth={1}>파이썬을 주 언어로 사용하고 백엔드개발 업무를 하고 있습니다.</Item>
 					</Ul>
 				</Div>
 
