@@ -13,6 +13,7 @@ import Refer from './components/Refer'
 import Ul from './components/Ul'
 import Link from './components/Link'
 import UtilitySet from './components/UtilitySet'
+import T from './translate'
 import './App.css'
 
 export default function App() {
@@ -23,7 +24,8 @@ export default function App() {
 			<div className={'innerContainer'}>
 				<Div>
 					<H2>
-						김명기<Assist> riroan</Assist>
+						{T('김명기')}
+						<Assist> riroan</Assist>
 					</H2>
 					<P>
 						1998. 09. 09.
