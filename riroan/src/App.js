@@ -13,18 +13,19 @@ import Refer from './components/Refer'
 import Ul from './components/Ul'
 import Link from './components/Link'
 import UtilitySet from './components/UtilitySet'
-import T from './translate'
 import './App.css'
+import { useTranslation, Trans } from 'react-i18next'
 
 export default function App() {
 	const darkmode = useSelector(state => state.darkmode.darkmode)
 	const detail = useSelector(state => state.detail.detail)
+	const { t } = useTranslation()
 	return (
 		<div className={['DefaultContainer', darkmode].join(' ')}>
 			<div className={'innerContainer'}>
 				<Div>
 					<H2>
-						{T('김명기')}
+						{t('name')}
 						<Assist> riroan</Assist>
 					</H2>
 					<P>
@@ -36,26 +37,26 @@ export default function App() {
 					</P>
 				</Div>
 				<Div>
-					<H2>안녕하세요! 저는</H2>
+					<H2>{t('greeting')}</H2>
 					<Ul display={true}>
-						<Item depth={1}>언제나 현재 코드를 개선할 수 있는지 고민합니다.</Item>
-						<Item depth={1}>What보다는 How와 Why를 중요하게 생각합니다.</Item>
-						<Item depth={1}>알고 있는 지식을 알려주고 배우며 함께 성장하는 것을 지향합니다.</Item>
-						<Item depth={1}>프로그래밍을 활용하여 문제를 해결하는 것을 좋아합니다.</Item>
-						<Item depth={1}>파이썬을 주 언어로 사용하고 백엔드개발 업무를 하고 있습니다.</Item>
+						<Item depth={1}>{t('greeting1')}</Item>
+						<Item depth={1}>{t('greeting2')}</Item>
+						<Item depth={1}>{t('greeting3')}</Item>
+						<Item depth={1}>{t('greeting4')}</Item>
+						<Item depth={1}>{t('greeting5')}</Item>
 					</Ul>
 				</Div>
 
 				<H1>WORK EXPERIENCES</H1>
 				<Div>
 					<H2>
-						<A href="https://www.kakaocorp.com/page/">카카오</A> <Assist>Server Developer,</Assist> <DateTime>2024. 03. -</DateTime>
+						<A href="https://www.kakaocorp.com/page/">{t("company1")}</A> <Assist>Server Developer,</Assist> <DateTime>2024. 03. -</DateTime>
 					</H2>
 					<H2>
-						<A href="https://www.kakaocorp.com/page/">카카오</A> <Assist>Server Developer (Intern),</Assist> <DateTime>2024. 01. - 2024. 02.</DateTime>
+						<A href="https://www.kakaocorp.com/page/">{t("company1")}</A> <Assist>Server Developer (Intern),</Assist> <DateTime>2024. 01. - 2024. 02.</DateTime>
 					</H2>
 					<H2>
-						알로카도스 <Assist>Backend Developer,</Assist> <DateTime>2023. 03. - 2023. 12.</DateTime>
+						{t("company2")} <Assist>Backend Developer,</Assist> <DateTime>2023. 03. - 2023. 12.</DateTime>
 					</H2>
 				</Div>
 				<H1>PROJECTS</H1>
@@ -345,7 +346,9 @@ export default function App() {
 					<P>건국대학교에서 개최한 알고리즘 문제 해결 대회입니다.</P>
 					<Ul display={true}>
 						<Item depth={1}>
-							<A href="http://scoreboard.riroan.com/problemset.pdf">KUPC 2022</A> 운영, 출제 및 검수
+							<Trans t={t} i18nKey="kupc2022">
+								<A href="http://scoreboard.riroan.com/problemset.pdf"></A>
+							</Trans>
 						</Item>
 						<Ul display={detail}>
 							<Item depth={2}>만쥬의 식사</Item>
