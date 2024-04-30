@@ -25,7 +25,7 @@ export default function App() {
 			<div className={'innerContainer'}>
 				<Div>
 					<H2>
-						{t('name')}
+						{t('7943af7b87')}
 						<Assist> riroan</Assist>
 					</H2>
 					<P>
@@ -37,26 +37,26 @@ export default function App() {
 					</P>
 				</Div>
 				<Div>
-					<H2>{t('greeting')}</H2>
+					<H2>{t('eb5ef1d22a')}</H2>
 					<Ul display={true}>
-						<Item depth={1}>{t('greeting1')}</Item>
-						<Item depth={1}>{t('greeting2')}</Item>
-						<Item depth={1}>{t('greeting3')}</Item>
-						<Item depth={1}>{t('greeting4')}</Item>
-						<Item depth={1}>{t('greeting5')}</Item>
+						<Item depth={1}>{t('2e0cbb47d6')}</Item>
+						<Item depth={1}>{t('7f208f8376')}</Item>
+						<Item depth={1}>{t('4c1aaa94b1')}</Item>
+						<Item depth={1}>{t('80cae4f4db')}</Item>
+						<Item depth={1}>{t('f4038fa07c')}</Item>
 					</Ul>
 				</Div>
 
 				<H1>WORK EXPERIENCES</H1>
 				<Div>
 					<H2>
-						<A href="https://www.kakaocorp.com/page/">{t("company1")}</A> <Assist>Server Developer,</Assist> <DateTime>2024. 03. -</DateTime>
+						<A href="https://www.kakaocorp.com/page/">{t('0a2ff93ca8')}</A> <Assist>Server Developer,</Assist> <DateTime>2024. 03. -</DateTime>
 					</H2>
 					<H2>
-						<A href="https://www.kakaocorp.com/page/">{t("company1")}</A> <Assist>Server Developer (Intern),</Assist> <DateTime>2024. 01. - 2024. 02.</DateTime>
+						<A href="https://www.kakaocorp.com/page/">{t('0a2ff93ca8')}</A> <Assist>Server Developer (Intern),</Assist> <DateTime>2024. 01. - 2024. 02.</DateTime>
 					</H2>
 					<H2>
-						{t("company2")} <Assist>Backend Developer,</Assist> <DateTime>2023. 03. - 2023. 12.</DateTime>
+						{t('57e3da99f5')} <Assist>Backend Developer,</Assist> <DateTime>2023. 03. - 2023. 12.</DateTime>
 					</H2>
 				</Div>
 				<H1>PROJECTS</H1>
@@ -74,20 +74,20 @@ export default function App() {
 					</P>
 					<Ul display={detail}>
 						<Item display={detail} depth={1}>
-							CI/CD/CT 파이프라인 구성
+							{t('1790d92249')}
 						</Item>
 						<Item display={detail} depth={1}>
-							관리자가 적은 양의 데이터로 이상행동을 정의할 수 있도록 Few-shot learning 기법 적용
+							{t('c60b1c2b97')}
 						</Item>
 						<Item display={detail} depth={1}>
-							실시간 추론 환경에서 30FPS인 CCTV와 15FPS인 모델의 처리 속도 차이를 개선하기 위해 프레임 스킵 기법 적용
+							{t('12ef35fe5c')}
 						</Item>
-						<Item depth={1}>Backbone Network 개선, Data augmentation, Fine tuning 학습 기법을 통해 탐지율 85% → 93% 개선</Item>
+						<Item depth={1}>{t('40c04ca7f4')}</Item>
 						<Ul display={detail}>
-							<Item depth={2}>좌우 반전, 각도 회전 등 다양한 augmentation 기법으로 훈련 데이터 8배 이상 확보</Item>
-							<Item depth={2}>F1 score, ROC등 다양한 metric을 통해 하이퍼 파라미터 튜닝</Item>
+							<Item depth={2}>{t('da0063aebf')}</Item>
+							<Item depth={2}>{t('07b9cd5e7a')}</Item>
 						</Ul>
-						<Item depth={1}>모델 개발을 위한 SOTA 논문 정독 및 적용</Item>
+						<Item depth={1}>{t('ebae4fa95e')}</Item>
 						<Ul display={detail}>
 							<Item depth={2}>
 								<A href="https://github.com/MVIG-SJTU/AlphAction">AlphAction</A>
@@ -100,12 +100,14 @@ export default function App() {
 							</Item>
 						</Ul>
 						<Item depth={1}>
-							<A href="https://atomicdesign.bradfrost.com/chapter-2/">Atomic Design Pattern</A>을 사용하여 Backoffice 페이지 구현
+							<Trans t={t} i18nKey="b70db4b6bd">
+								<A href="https://atomicdesign.bradfrost.com/chapter-2/"></A>
+							</Trans>
 						</Item>
-						<Item depth={1}>Agile 개발 방법론 사용</Item>
+						<Item depth={1}>{t('3898ae82bb')}</Item>
 						<Ul display={detail}>
-							<Item depth={2}>데일리 스크럼 수행</Item>
-							<Item depth={2}>2주단위 스프린트 4회 진행</Item>
+							<Item depth={2}>{t('0f335c363b')}</Item>
+							<Item depth={2}>{t('b426109233')}</Item>
 						</Ul>
 					</Ul>
 				</Div>
@@ -117,19 +119,25 @@ export default function App() {
 					<Refer>
 						<A href="https://cloud.riroan.com/">Site</A> <A href="https://github.com/riroan/MKCloud">Github</A>
 					</Refer>
-					<P>개인용 스토리지를 편리하게 사용할 수 있도록 개발한 1인 프로젝트입니다. 프론트엔드, 백엔드 개발을 모두 담당했습니다.</P>
+					<P>{t('aaad563e6f')}</P>
 					<Ul display={detail}>
 						<Item depth={1}>
-							<A href="https://riroan.tistory.com/123">Nginx를 사용하여 리버스 프록시 적용</A>, 최대 전송 파일 크기 제한
+							<Trans t={t} i18nKey="91ff0ec607">
+								<A href="https://riroan.tistory.com/123"></A>
+							</Trans>
 						</Item>
 						<Item depth={1}>
-							<A href="https://riroan.tistory.com/124">Certbot을 사용하여 HTTPS 통신</A>
+							<Trans t={t} i18nKey="9e23e4d1cc">
+								<A href="https://riroan.tistory.com/124"></A>
+							</Trans>
 						</Item>
-						<Item depth={1}>Docker Compose, Github Action을 사용하여 CI/CD 구성</Item>
+						<Item depth={1}>{t('eea9e2270d')}</Item>
 						<Item depth={1}>
-							<A href="https://jwt.io/">JWT</A>를 사용하여 인증 기능 구현
+							<Trans t={t} i18nKey="b85f775faa">
+								<A href="https://jwt.io/"></A>
+							</Trans>
 						</Item>
-						<Item depth={1}>Spring Data JPA를 사용하여 ORM 적용</Item>
+						<Item depth={1}>{t('2a8b68e180')}</Item>
 					</Ul>
 				</Div>
 				<Div>
@@ -140,16 +148,20 @@ export default function App() {
 					<Refer>
 						<A href="https://bj.riroan.com/">Site</A> <A href="https://github.com/riroan/Kunsolved">Github</A>
 					</Refer>
-					<P>건국대학교 학생이 해결하지 않은 백준 문제를 분석하고 리스트를 제공하는 1인 프로젝트입니다. 프론트엔드, 백엔드 개발을 모두 담당했습니다.</P>
+					<P>{t('85c8632fa3')}</P>
 					<Ul display={detail}>
-						<Item depth={1}>Docker Compose, Github Action을 사용하여 CI/CD 구성</Item>
-						<Item depth={1}>Crontab을 사용하여 주기적인 작업 수행</Item>
+						<Item depth={1}>{t('5275aa4a76')}</Item>
+						<Item depth={1}>{t('9e6fcd0428')}</Item>
 						<Item depth={1}>
-							<A href="https://www.chartjs.org/">Chart.js</A>를 사용하여 해결 문제 수 시각화
+							<Trans t={t} i18nKey="67b5ff53fc">
+								<A href="https://www.chartjs.org/"></A>
+							</Trans>
 						</Item>
-						<Item depth={1}>Pagination을 사용하여 효율적으로 목록 제공</Item>
+						<Item depth={1}>{t('e8b73c5fe8')}</Item>
 						<Item depth={1}>
-							<A href="https://aws.amazon.com/ko/certificate-manager/">ACM</A>에서 SSL을 발급받아 Loadbalancer에 적용하여 HTTPS 통신 및 로드밸런싱
+							<Trans t={t} i18nKey="e94e03d3a3">
+								<A href="https://aws.amazon.com/ko/certificate-manager/"></A>
+							</Trans>
 						</Item>
 					</Ul>
 				</Div>
@@ -161,11 +173,13 @@ export default function App() {
 					<Refer>
 						<A href="https://playlollang.wonj.in/">Site</A> <A href="https://github.com/riroan/lollang">Github</A>
 					</Refer>
-					<P>만우절을 기념하여 롤에서 사용하는 채팅을 모방하여 프로그래밍하는 난해한 프로그래밍 언어를 개발했습니다.</P>
+					<P>{t('e9fbbf3246')}</P>
 					<Ul display={detail}>
-						<Item depth={1}>문법 정의 및 로직 구현</Item>
+						<Item depth={1}>{t('a4f08266bc')}</Item>
 						<Item depth={1}>
-							<A href="https://github.com/riroan/lollang/wiki/lollang-Grammar">롤랭 위키</A> 작성
+							<Trans t={t} i18nKey="b050f72248">
+								<A href="https://github.com/riroan/lollang/wiki/lollang-Grammar"></A>
+							</Trans>
 						</Item>
 					</Ul>
 				</Div>
@@ -173,36 +187,35 @@ export default function App() {
 				<H1>EDUCATION</H1>
 				<Div>
 					<H2>
-						<A href="https://www.konkuk.ac.kr/konkuk/index.do">건국대학교</A> <Assist>컴퓨터공학부 17학번 학사 졸업</Assist>
+						<A href="https://www.konkuk.ac.kr/konkuk/index.do">{t('b77b273bca')}</A> <Assist>{t('6f47aa3042')}</Assist>
 					</H2>
-					{/* <br /> */}
 					GPA 3.75/4.50 (CSE 3.75/4.50)
 				</Div>
 				<Div>
 					<H2>
-						<A href="https://ssls.sen.hs.kr/">서서울생활과학고등학교</A> <Assist>국제정보과학과 졸업</Assist>
+						<A href="https://ssls.sen.hs.kr/">{t('879bce12bb')}</A> <Assist>{t('eca4809d9e')}</Assist>
 					</H2>
 					<Ul display={detail}>
-						<Item depth={1}>2016 MS Office 세계경진대회 한국 대표 선발전 3등상</Item>
-						<Item depth={1}>MOS Word Expert, PPT 취득</Item>
-						<Item depth={1}>ITQ 엑셀/액세스 A등급 취득</Item>
-						<Item depth={1}>정보처리기능사 취득</Item>
-						<Item depth={1}>전산회계 2급 취득</Item>
-						<Item depth={1}>ERP 정보관리사 물류 2급 취득</Item>
+						<Item depth={1}>{t('7e09f00865')}</Item>
+						<Item depth={1}>{t('c85c922296')}</Item>
+						<Item depth={1}>{t('c1eed5bc97')}</Item>
+						<Item depth={1}>{t('0a236ab86f')}</Item>
+						<Item depth={1}>{t('9806c430d7')}</Item>
+						<Item depth={1}>{t('668d73beac')}</Item>
 					</Ul>
 				</Div>
 				<Div>
 					<H2>
-						<A href="https://yangkang.sen.ms.kr/">양강중학교</A> <Assist>졸업</Assist>
+						<A href="https://yangkang.sen.ms.kr/">{t('ed5a10dd46')}</A> <Assist>{t('3e00dd6c38')}</Assist>
 					</H2>
 				</Div>
 				<Div>
 					<H2>
-						<A href="https://yangmok.sen.es.kr/">서울양목초등학교</A> <Assist>졸업</Assist>
+						<A href="https://yangmok.sen.es.kr/">{t('4dd85a8789')}</A> <Assist>{t('3e00dd6c38')}</Assist>
 					</H2>
 					<Ul display={detail}>
-						<Item depth={1}>ITQ 한글/파워포인트 A등급 취득</Item>
-						<Item depth={1}>워드프로세서 취득</Item>
+						<Item depth={1}>{t('1655bfd10d')}</Item>
+						<Item depth={1}>{t('1fa589f622')}</Item>
 					</Ul>
 				</Div>
 
@@ -253,7 +266,7 @@ export default function App() {
 				</Div>
 				<Div>
 					<H2>
-						<A href="https://ucpc.me/">UCPC</A> <Assist>전국 대학생 프로그래밍 대회</Assist>
+						<A href="https://ucpc.me/">UCPC</A> <Assist>{t('fd42059b90')}</Assist>
 					</H2>
 					<Ul display={true}>
 						<Item>
@@ -264,104 +277,108 @@ export default function App() {
 					</Ul>
 				</Div>
 				<Div>
-					<H2>엘리스 코드 챌린지</H2>
+					<H2>{t('5703ef86fc')}</H2>
 					<Ul display={true}>
 						<Item>
-							<A href="https://riroan.tistory.com/166">2023, 최우수상</A>
+							<A href="https://riroan.tistory.com/166">{t('2b50a2d01e')}</A>
 						</Item>
 					</Ul>
 				</Div>
 				<Div>
-					<H2>현대모비스 알고리즘 경진대회</H2>
+					<H2>{t('ec45e1419e')}</H2>
 					<Ul display={true}>
 						<Item>
-							<A href="https://riroan.tistory.com/151">2023, 장려상</A>
+							<A href="https://riroan.tistory.com/151">{t('88c76e7c86')}</A>
 						</Item>
 					</Ul>
 				</Div>
 				<Div>
 					<H2>
-						<A href="https://career.programmers.co.kr/top_programmers/introduce">탑 프로그래머스</A>
+						<A href="https://career.programmers.co.kr/top_programmers/introduce">{t('3f5d3b124c')}</A>
 					</H2>
 					<Ul display={true}>
 						<Item>
-							<A href="https://riroan.tistory.com/86">2022, 탑 프로그래머스 취득</A>
+							<A href="https://riroan.tistory.com/86">{t('e10bb9ddc4')}</A>
 						</Item>
 					</Ul>
 				</Div>
 				<Div>
-					<H2>쇼미더 코드</H2>
+					<H2>{t('3dc944de58')}</H2>
 					<Ul display={true}>
-						<Item>2022, 1회차 금손 취득</Item>
+						<Item>{t('a520cb971c')}</Item>
 					</Ul>
 				</Div>
 
 				<H1>ALGORITHM EXPERIENCES</H1>
 				<Div>
 					<H2>
-						<A href="https://www.acmicpc.net/user/riroan">백준</A>{' '}
+						<A href="https://www.acmicpc.net/user/riroan">{t('7c6fc03ca2')}</A>{' '}
 						<Assist>
 							문제 해결 수 3800<sup>+</sup>
 						</Assist>
 					</H2>
-					<P>국내에서 가장 큰 알고리즘 문제 해결 플랫폼입니다. 현재 65등에 위치하고 있습니다.</P>
+					<P>{t('69aa42060f')}</P>
 				</Div>
 				<Div>
 					<H2>
-						<A href="https://solved.ac/profile/riroan">솔브드</A> <Assist style={{ color: '#00B4FC' }}>Diamond II</Assist>
+						<A href="https://solved.ac/profile/riroan">{t('5d37da82e2')}</A> <Assist style={{ color: '#00B4FC' }}>Diamond II</Assist>
 					</H2>
-					<P>백준에서 해결한 문제의 난이도에 따라 레이팅을 얻는 시스템입니다. 현재 278등에 위치하고 있고 상위 0.22%에 해당합니다.</P>
+					<P>{t('f27eded4a9')}</P>
 				</Div>
 				<Div>
 					<H2>
-						<A href="https://solved.ac/profile/riroan/arena">솔브드 아레나</A>{' '}
+						<A href="https://solved.ac/profile/riroan/arena">{t('4e1e0d7819')}</A>{' '}
 						<Assist style={{ color: '#30A1E5' }}>
-							최고 레이팅 2,234 (SS<sup>+</sup>)
+							<Trans t={t} i18nKey="8de4ecceb6">
+								<sup></sup>
+							</Trans>
 						</Assist>
 					</H2>
-					<P>백준에서 개최되는 대회 성적에 따라 레이팅을 얻는 시스템입니다. 현재 44등에 위치하고 있고 상위 1.44%에 해당합니다.</P>
+					<P>{t('1978eb4b0b')}</P>
 				</Div>
 				<Div>
 					<H2>
-						<A href="https://codeforces.com/profile/riroan">Codeforces</A> <Assist style={{ color: '#AA00AA' }}>최고 레이팅 1,932 (Candidate Master)</Assist>
+						<A href="https://codeforces.com/profile/riroan">Codeforces</A> <Assist style={{ color: '#AA00AA' }}>{t('ee90d8cb6f')}</Assist>
 					</H2>
-					<P>전 세계적으로 인기가 많은 경쟁 알고리즘 문제 해결 플랫폼입니다. 레이팅 1,932는 상위 3.91%에 해당합니다.</P>
+					<P>{t('d6e76f1353')}</P>
 				</Div>
 				<Div>
 					<H2>
-						<A href="https://atcoder.jp/users/riroan">Atcoder</A> <Assist style={{ color: '#00C0C0' }}>최고 레이팅 1,369 (4 Kyu)</Assist>
+						<A href="https://atcoder.jp/users/riroan">Atcoder</A> <Assist style={{ color: '#00C0C0' }}>{t('05d8ff4f18')}</Assist>
 					</H2>
-					<P>일본에서 만들어진 경쟁 알고리즘 문제 해결 플랫폼입니다. 레이팅 1,369는 상위 7.58%에 해당합니다.</P>
+					<P>{t('473137965e')}</P>
 				</Div>
 				<Div>
 					<H2>
-						<A href="https://profiles.topcoder.com/riroan">Topcoder</A> <Assist style={{ color: '#6666FF' }}>최고 레이팅 1,415</Assist>
+						<A href="https://profiles.topcoder.com/riroan">Topcoder</A> <Assist style={{ color: '#6666FF' }}>{t('bb55c41fa8')}</Assist>
 					</H2>
-					<P>전 세계 사람들과 겨루는 경쟁 알고리즘 문제 해결 플랫폼입니다. 레이팅 1,415는 상위 11.57%에 해당합니다.</P>
+					<P>{t('f0eb7f05da')}</P>
 				</Div>
 				<Div>
 					<H2>
 						<A href="https://www.acmicpc.net/category/454">KUPC</A> <Assist>Konkuk University Programming Contest</Assist>
 					</H2>
-					<P>건국대학교에서 개최한 알고리즘 문제 해결 대회입니다.</P>
+					<P>{t('530fa7ad9c')}</P>
 					<Ul display={true}>
 						<Item depth={1}>
-							<Trans t={t} i18nKey="kupc2022">
+							<Trans t={t} i18nKey="eea448938a">
 								<A href="http://scoreboard.riroan.com/problemset.pdf"></A>
 							</Trans>
 						</Item>
 						<Ul display={detail}>
-							<Item depth={2}>만쥬의 식사</Item>
-							<Item depth={2}>비숍 여행</Item>
-							<Item depth={2}>시험자리 배정하기</Item>
-							<Item depth={2}>즐거운 XOR</Item>
+							<Item depth={2}>{t('3a7e8687a3')}</Item>
+							<Item depth={2}>{t('9874255b12')}</Item>
+							<Item depth={2}>{t('2ac5268a79')}</Item>
+							<Item depth={2}>{t('e164f9d021')}</Item>
 						</Ul>
 						<Item depth={1}>
-							<A href="https://www.acmicpc.net/category/989">KUPC 2023</A> 출제 및 검수
+							<Trans t={t} i18nKey="564079684c">
+								<A href="https://www.acmicpc.net/category/989"></A>
+							</Trans>
 						</Item>
 						<Ul display={detail}>
 							<Item depth={2}>
-								<A href="https://www.acmicpc.net/problem/30463">K-문자열</A>
+								<A href="https://www.acmicpc.net/problem/30463">{t('b6f1c50fe7')}</A>
 							</Item>
 							<Item depth={2}>
 								<A href="https://www.acmicpc.net/problem/30462">MEXchange</A>
@@ -373,23 +390,28 @@ export default function App() {
 				<H1>ACTIVITIES</H1>
 				<Div>
 					<H2>
-						<A href="https://fastapi.tiangolo.com/">FastAPI</A> 오픈소스 기여 <DateTime>2024. 01 - </DateTime>
+						<Trans t={t} i18nKey="3b161a077a">
+							<A href="https://fastapi.tiangolo.com/"></A>
+						</Trans>{' '}
+						<DateTime>2024. 01 - </DateTime>
 					</H2>
 					<P>
-						<A href="https://github.com/tiangolo/fastapi/pulls?q=is%3Apr+is%3Aclosed+author%3Ariroan">FastAPI 공식문서 번역에 기여</A>했습니다.
+						<Trans t={t} i18nKey="fe7a212f7e">
+							<A href="https://github.com/tiangolo/fastapi/pulls?q=is%3Apr+is%3Aclosed+author%3Ariroan"></A>
+						</Trans>
 					</P>
 				</Div>
 				<Div>
 					<H2>
-						<A href="https://www.swmaestro.org/sw/main/main.do">SW 마에스트로</A> 12기 <DateTime>2021. 06. - 2021. 12.</DateTime>
+						<A href="https://www.swmaestro.org/sw/main/main.do">{t('f20ed21cf8')}</A> {t('d3cd603b84')} <DateTime>2021. 06. - 2021. 12.</DateTime>
 					</H2>
-					<P>한국정보산업연합회에서 주관하는 SW인재양성 프로그램입니다.</P>
+					<P>{t('1e8bf396d3')}</P>
 				</Div>
 				<Div>
 					<H2>
-						육군 SW 개발병 <DateTime>2019. 05. - 2020. 12.</DateTime>
+						{t('da1b06b73d')} <DateTime>2019. 05. - 2020. 12.</DateTime>
 					</H2>
-					<P>SW 개발병으로 군 복무를 수행했습니다.</P>
+					<P>{t('f25db7c579')}</P>
 				</Div>
 
 				<H1>CERTIFICATES</H1>
@@ -397,11 +419,11 @@ export default function App() {
 					<H2>
 						PCCP Lv4 <Assist>2022. 11.</Assist>
 					</H2>
-					<P>Python3로 817점 취득</P>
+					<P>{t('6244137e69')}</P>
 				</Div>
 				<Div>
 					<H2>
-						정보처리기사 <Assist>2022. 09.</Assist>
+						{t('0ca47e58ef')} <Assist>2022. 09.</Assist>
 					</H2>
 				</Div>
 				<Div>
@@ -415,7 +437,9 @@ export default function App() {
 						TOSC 1급 <Assist>2022. 04.</Assist>
 					</H2>
 					<P>
-						제 1회 <A href="https://tosc.sejong.ac.kr/">TOSC</A>에서 최고점 취득
+						<Trans t={t} i18nKey="8f0f5b6e68">
+							<A href="https://tosc.sejong.ac.kr/"></A>
+						</Trans>
 					</P>
 				</Div>
 				<Div>
@@ -427,7 +451,7 @@ export default function App() {
 
 				<H1>GAMES</H1>
 				<Div>
-					<H2>리그오브레전드</H2>
+					<H2>{t('15c4d561d9')}</H2>
 					<Ul display={true}>
 						<Item depth={1}>
 							<A href="https://www.op.gg/summoners/kr/%EB%AA%85%EA%B8%B0%EB%AA%85%EA%B8%B0%EA%B9%80%EB%AA%85%EA%B8%B0-KMG">명기명기김명기#KMG</A>
@@ -438,16 +462,16 @@ export default function App() {
 					</Ul>
 				</Div>
 				<Div>
-					<H2>메이플스토리</H2>
+					<H2>{t('e6db6ba937')}</H2>
 					<Ul display={true}>
 						<Item depth={1}>
 							<A href="https://maple.gg/u/%ED%95%99%EB%8B%A4%EB%A6%AC%EC%A0%91%EA%B8%B0">학다리접기</A>
-							<Assist>@리부트</Assist>
+							<Assist>@{t('55f275bfca')}</Assist>
 						</Item>
 					</Ul>
 				</Div>
 				<Div>
-					<H2>배틀넷</H2>
+					<H2>{t('7cd8cc1140')}</H2>
 					<Ul display={true}>
 						<Item depth={1}>하스스톤#33537</Item>
 					</Ul>
@@ -457,52 +481,52 @@ export default function App() {
 				<Div>
 					<Link desc="riroan@naver.com">
 						<A href="mailto:riroan@naver.com" style={{ color: '#FE0C50' }}>
-							이메일
+							{t('fd61ef6507')}
 						</A>
 					</Link>
 					<Link desc="riroan.tistory.com">
 						<A href="https://riroan.tistory.com" style={{ color: '#FF5A4A' }}>
-							블로그
+							{t('76b5550d8c')}
 						</A>
 					</Link>
 					<Link desc="@dding_gi_98">
 						<A href="https://www.instagram.com/dding_gi_98" style={{ color: '#DD2A7B' }}>
-							인스타그램
+							{t('dd95a7137b')}
 						</A>
 					</Link>
 					<Link desc="riroan">
 						<A href="https://github.com/riroan" style={{ color: darkmode ? '#E9EAEA' : '#171515' }}>
-							깃허브
+							{t('5f37ad7846')}
 						</A>
 					</Link>
 					<Link desc="riroan">
 						<A href="https://www.linkedin.com/in/riroan/" style={{ color: '#0276A8' }}>
-							링크드인
+							{t('1ffb0f1615')}
 						</A>
 					</Link>
 					<Link desc="riroan">
 						<A href="https://www.acmicpc.net/user/riroan" style={{ color: '#0078C2' }}>
-							백준
+							{t('459b12e1f1')}
 						</A>
 					</Link>
 					<Link desc="riroan">
 						<A href="https://solved.ac/profile/riroan" style={{ color: '#17CE3A' }}>
-							솔브드
+							{t('1070ba1d4e')}
 						</A>
 					</Link>
 					<Link desc="riroan">
 						<A href="https://codeforces.com/profile/" style={{ color: '#425E9C' }}>
-							코드포스
+							{t('4a3c941612')}
 						</A>
 					</Link>
 					<Link desc="riroan">
 						<A href="https://atcoder.jp/users/riroan" style={{ color: darkmode ? '#DDDDDD' : '#222222' }}>
-							앳코더
+							{t('f6003e126a')}
 						</A>
 					</Link>
 					<Link desc="riroan">
 						<A href="https://profiles.topcoder.com/riroan" style={{ color: darkmode ? '#D5D5D5' : '#2A2A2A' }}>
-							탑코더
+							{t('df23d19230')}
 						</A>
 					</Link>
 				</Div>
