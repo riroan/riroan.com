@@ -13,11 +13,16 @@ import Refer from './components/Refer'
 import Ul from './components/Ul'
 import Link from './components/Link'
 import UtilitySet from './components/UtilitySet'
+import { MdOutlineCake } from 'react-icons/md'
+import { MdOutlineAlternateEmail } from 'react-icons/md'
+import { MdOutlineWorkOutline } from 'react-icons/md'
+import { MdOutlinePersonOutline } from 'react-icons/md'
 import './App.css'
 
 export default function App() {
 	const darkmode = useSelector(state => state.darkmode.darkmode)
 	const detail = useSelector(state => state.detail.detail)
+	const iconStyle = { verticalAlign: '-10%', marginRight: 15}
 	return (
 		<div className={['DefaultContainer', darkmode].join(' ')}>
 			<div className={'innerContainer'}>
@@ -26,11 +31,17 @@ export default function App() {
 						김명기<Assist> riroan</Assist>
 					</H2>
 					<P>
+						<MdOutlineCake size={18} style={iconStyle} />
 						1998. 09. 09.
 						<br />
+						<MdOutlineWorkOutline size={18} style={iconStyle} />
 						Backend Developer
 						<br />
+						<MdOutlineAlternateEmail size={18} style={iconStyle} />
 						riroan@naver.com
+						<br />
+						<MdOutlinePersonOutline size={18} style={iconStyle} />
+						ENTJ
 					</P>
 				</Div>
 				<Div>
