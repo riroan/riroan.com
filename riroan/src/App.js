@@ -150,7 +150,7 @@ export default function App() {
 					</Refer>
 					<P>{t('85c8632fa3')}</P>
 					<Ul display={detail}>
-						<Item depth={1}>{t('5275aa4a76')}</Item>
+						<Item depth={1}>{t('eea9e2270d')}</Item>
 						<Item depth={1}>{t('9e6fcd0428')}</Item>
 						<Item depth={1}>
 							<Trans t={t} i18nKey="67b5ff53fc">
@@ -280,7 +280,11 @@ export default function App() {
 					<H2>{t('5703ef86fc')}</H2>
 					<Ul display={true}>
 						<Item>
-							<A href="https://riroan.tistory.com/166">{t('2b50a2d01e')}</A>
+							<A href="https://riroan.tistory.com/166">
+								<Trans t={t} i18nKey="2b50a2d01e">
+									<sup></sup>
+								</Trans>
+							</A>
 						</Item>
 					</Ul>
 				</Div>
@@ -288,7 +292,11 @@ export default function App() {
 					<H2>{t('ec45e1419e')}</H2>
 					<Ul display={true}>
 						<Item>
-							<A href="https://riroan.tistory.com/151">{t('88c76e7c86')}</A>
+							<A href="https://riroan.tistory.com/151">
+								<Trans t={t} i18nKey="88c76e7c86">
+									<sup></sup>
+								</Trans>
+							</A>
 						</Item>
 					</Ul>
 				</Div>
@@ -317,13 +325,21 @@ export default function App() {
 							문제 해결 수 3800<sup>+</sup>
 						</Assist>
 					</H2>
-					<P>{t('69aa42060f')}</P>
+					<P>
+						<Trans t={t} i18nKey="69aa42060f">
+							<sup></sup>
+						</Trans>
+					</P>
 				</Div>
 				<Div>
 					<H2>
 						<A href="https://solved.ac/profile/riroan">{t('5d37da82e2')}</A> <Assist style={{ color: '#00B4FC' }}>Diamond II</Assist>
 					</H2>
-					<P>{t('f27eded4a9')}</P>
+					<P>
+						<Trans t={t} i18nKey="f27eded4a9">
+							<sup></sup>
+						</Trans>
+					</P>
 				</Div>
 				<Div>
 					<H2>
@@ -334,7 +350,11 @@ export default function App() {
 							</Trans>
 						</Assist>
 					</H2>
-					<P>{t('1978eb4b0b')}</P>
+					<P>
+						<Trans t={t} i18nKey="1978eb4b0b">
+							<sup></sup>
+						</Trans>
+					</P>
 				</Div>
 				<Div>
 					<H2>
@@ -403,7 +423,11 @@ export default function App() {
 				</Div>
 				<Div>
 					<H2>
-						<A href="https://www.swmaestro.org/sw/main/main.do">{t('f20ed21cf8')}</A> {t('d3cd603b84')} <DateTime>2021. 06. - 2021. 12.</DateTime>
+						<A href="https://www.swmaestro.org/sw/main/main.do">{t('f20ed21cf8')}</A>{' '}
+						<Trans t={t} i18nKey="d3cd603b84">
+							<sup></sup>
+						</Trans>
+						<DateTime>2021. 06. - 2021. 12.</DateTime>
 					</H2>
 					<P>{t('1e8bf396d3')}</P>
 				</Div>
