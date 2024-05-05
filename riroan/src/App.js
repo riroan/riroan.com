@@ -69,8 +69,9 @@ export default function App() {
 						<A href="https://www.youtube.com/watch?v=VJRN_Xnvn_0">Demo</A>
 					</Refer>
 					<P>
-						<A href="https://www.swmaestro.org/sw/bbs/B0000006/view.do?nttId=25024&menuNo=200015&pageIndex=5">소프트웨어 마에스트로 12기에서 수행한 프로젝트</A>입니다. CCTV에서 이상행동을
-						감지하면 관리자에게 알림을 보내고 관리자가 직접 이상행동을 정의할 수 있는 프로젝트입니다. Pytorch를 사용하여 AI모델 개발/학습/배포와 Backoffice페이지 개발을 담당했습니다.
+						<Trans t={t} i18nKey="c61a814bcd">
+							<A href="https://www.swmaestro.org/sw/bbs/B0000006/view.do?nttId=25024&menuNo=200015&pageIndex=5"></A>
+						</Trans>
 					</P>
 					<Ul display={detail}>
 						<Item display={detail} depth={1}>
@@ -322,7 +323,9 @@ export default function App() {
 					<H2>
 						<A href="https://www.acmicpc.net/user/riroan">{t('7c6fc03ca2')}</A>{' '}
 						<Assist>
-							문제 해결 수 3800<sup>+</sup>
+							<Trans t={t} i18nKey="9ce277c6e8">
+								<sup></sup>
+							</Trans>
 						</Assist>
 					</H2>
 					<P>
@@ -458,7 +461,7 @@ export default function App() {
 				</Div>
 				<Div>
 					<H2>
-						TOSC 1급 <Assist>2022. 04.</Assist>
+						{t('17060ac013')} <Assist>2022. 04.</Assist>
 					</H2>
 					<P>
 						<Trans t={t} i18nKey="8f0f5b6e68">
@@ -470,7 +473,7 @@ export default function App() {
 					<H2>
 						TOPCIT <Assist>2021. 10.</Assist>
 					</H2>
-					<P>553점 수준 3 (능숙형)</P>
+					<P>{t('501e913fc0')}</P>
 				</Div>
 
 				<H1>GAMES</H1>
