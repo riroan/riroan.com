@@ -3,7 +3,7 @@ import styles from './P.module.css'
 
 export default function P(props) {
 	return (
-		<div styles={props.style} className={styles.container}>
+		<div style={props.style} className={styles.container}>
 			{props.children}
 		</div>
 	)

@@ -1,0 +1,11 @@
+.container {
+	font-size: 16px;
+	color: #222;
+	letter-spacing: -0.04ch;
+	margin-bottom: 2px;
+	margin-left: 10px;
+}
+
+.darkmode {
+	color: #dadada;
+}
