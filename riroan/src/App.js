@@ -446,6 +446,14 @@ export default function App() {
 					<P>{t('f25db7c579')}</P>
 				</Div>
 
+				<H1>SEMINARS</H1>
+				<Div>
+					<H2>
+						{t('b6751e45ef')} <Assist>2024. 04.</Assist>
+					</H2>
+					<P>{t('b77b273bca')} Alkon</P>
+				</Div>
+
 				<H1>CERTIFICATES</H1>
 				<Div>
 					<H2>
