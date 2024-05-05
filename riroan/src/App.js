@@ -9,10 +9,15 @@ import Item from './components/Item'
 import DateTime from './components/DateTime'
 import P from './components/P'
 import TechStack from './components/TechStack'
+import Information from './components/Information'
 import Refer from './components/Refer'
 import Ul from './components/Ul'
 import Link from './components/Link'
 import UtilitySet from './components/UtilitySet'
+import { MdOutlineCake } from 'react-icons/md'
+import { MdOutlineAlternateEmail } from 'react-icons/md'
+import { MdOutlineWorkOutline } from 'react-icons/md'
+import { MdOutlinePersonOutline } from 'react-icons/md'
 import './App.css'
 import { useTranslation, Trans } from 'react-i18next'
 
@@ -20,20 +25,20 @@ export default function App() {
 	const darkmode = useSelector(state => state.darkmode.darkmode)
 	const detail = useSelector(state => state.detail.detail)
 	const { t } = useTranslation()
+	const iconStyle = { verticalAlign: '-13%', marginRight: 15 }
 	return (
 		<div className={['DefaultContainer', darkmode].join(' ')}>
 			<div className={'innerContainer'}>
 				<Div>
-					<H2>
+					<H1 style={{ borderBottom: 0 }}>
 						{t('7943af7b87')}
 						<Assist> riroan</Assist>
-					</H2>
+					</H1>
 					<P>
-						1998. 09. 09.
-						<br />
-						Server Developer
-						<br />
-						riroan@naver.com
+						<Information icon={<MdOutlineCake size={20} style={iconStyle} />}>1998. 09. 09.</Information>
+						<Information icon={<MdOutlineWorkOutline size={20} style={iconStyle} />}>Kakao Server Developer</Information>
+						<Information icon={<MdOutlineAlternateEmail size={20} style={iconStyle} />}>riroan@naver.com</Information>
+						<Information icon={<MdOutlinePersonOutline size={20} style={iconStyle} />}>ENTJ</Information>
 					</P>
 				</Div>
 				<Div>

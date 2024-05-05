@@ -6,6 +6,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 @media screen and (min-width: 768px) {
