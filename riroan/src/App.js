@@ -31,7 +31,7 @@ export default function App() {
 					<P>
 						1998. 09. 09.
 						<br />
-						Backend Developer
+						Server Developer
 						<br />
 						riroan@naver.com
 					</P>
