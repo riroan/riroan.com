@@ -32,7 +32,7 @@ export default function App() {
 				<Div>
 					<H1 style={{ borderBottom: 0 }}>
 						{t('7943af7b87')}
-						<Assist> riroan</Assist>
+						<Assist style={{ fontSize: 20 }}> riroan</Assist>
 					</H1>
 					<P>
 						<Information icon={<MdOutlineCake size={20} style={iconStyle} />}>1998. 09. 09.</Information>

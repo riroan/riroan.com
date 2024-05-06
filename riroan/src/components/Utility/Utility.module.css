@@ -14,18 +14,18 @@
 
 @media screen and (min-width: 768px) {
 	.container {
-		height: 70px;
-		width: 70px;
-		line-height: 70px;
+		height: 60px;
+		width: 60px;
+		line-height: 60px;
 		right: 50px;
 		bottom: 50px;
 		border-radius: 35px;
-		font-size: 35px;
-		margin-top: 20px;
+		font-size: 30px;
+		margin-top: 15px;
 	}
 
 	.container:hover {
-		font-size: 40px;
+		font-size: 35px;
 		transition: font-size 0.1s ease 0s;
 	}
 }
