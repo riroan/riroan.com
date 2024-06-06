@@ -38,7 +38,6 @@ export default function App() {
 						<Information icon={<MdOutlineCake size={20} style={iconStyle} />}>1998. 09. 09.</Information>
 						<Information icon={<MdOutlineWorkOutline size={20} style={iconStyle} />}>Kakao Server Developer</Information>
 						<Information icon={<MdOutlineAlternateEmail size={20} style={iconStyle} />}>riroan@naver.com</Information>
-						<Information icon={<MdOutlinePersonOutline size={20} style={iconStyle} />}>ENTJ</Information>
 					</P>
 				</Div>
 				<Div>
