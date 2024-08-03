@@ -303,6 +303,13 @@ export default function App() {
 								</Trans>
 							</A>
 						</Item>
+						<Item>
+							<A href="https://riroan.tistory.com/175">
+								<Trans t={t} i18nKey="3b866dda48">
+									<sup></sup>
+								</Trans>
+							</A>
+						</Item>
 					</Ul>
 				</Div>
 				<Div>
