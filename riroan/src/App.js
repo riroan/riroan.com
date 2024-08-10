@@ -17,7 +17,6 @@ import UtilitySet from './components/UtilitySet'
 import { MdOutlineCake } from 'react-icons/md'
 import { MdOutlineAlternateEmail } from 'react-icons/md'
 import { MdOutlineWorkOutline } from 'react-icons/md'
-import { MdOutlinePersonOutline } from 'react-icons/md'
 import './App.css'
 import { useTranslation, Trans } from 'react-i18next'
 
