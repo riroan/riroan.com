@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useSelector } from 'react-redux'
 import A from './components/A'
 import Assist from './components/Assist'
@@ -25,6 +25,10 @@ export default function App() {
 	const detail = useSelector(state => state.detail.detail)
 	const { t } = useTranslation()
 	const iconStyle = { verticalAlign: '-13%', marginRight: 15 }
+	useEffect(() => {
+		const referrer = document.referrer
+		console.log('Referrer', referrer)
+	}, [])
 	return (
 		<div className={['DefaultContainer', darkmode].join(' ')}>
 			<div className={'innerContainer'}>
