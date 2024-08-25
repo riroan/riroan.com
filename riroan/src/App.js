@@ -460,6 +460,15 @@ export default function App() {
 					</H2>
 					<P>{t('f25db7c579')}</P>
 				</Div>
+				<Div>
+					<H2>
+						{t('eefd8527c4')} <DateTime>2024. 08.</DateTime>
+					</H2>
+					<Refer>
+						<A href="https://github.com/strong-trash/hack_seoul_backend">Github</A>
+					</Refer>
+					<P>{t('0defe675b7')}</P>
+				</Div>
 
 				<H1>SEMINARS</H1>
 				<Div>
