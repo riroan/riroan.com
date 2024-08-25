@@ -27,7 +27,13 @@ export default function App() {
 	const iconStyle = { verticalAlign: '-13%', marginRight: 15 }
 	useEffect(() => {
 		const referrer = document.referrer
-		console.log('Referrer', referrer)
+		fetch('https://visit.riroan.com/referrer', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify({ referrer: referrer }),
+		})
 	}, [])
 	return (
 		<div className={['DefaultContainer', darkmode].join(' ')}>
