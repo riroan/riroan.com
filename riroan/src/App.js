@@ -356,7 +356,7 @@ export default function App() {
 				</Div>
 				<Div>
 					<H2>
-						<A href="https://solved.ac/profile/riroan">{t('5d37da82e2')}</A> <Assist style={{ color: '#00B4FC' }}>Diamond II</Assist>
+						<A href="https://solved.ac/profile/riroan">{t('5d37da82e2')}</A> <Assist style={{ color: '#00B4FC' }}>Diamond I</Assist>
 					</H2>
 					<P>
 						<Trans t={t} i18nKey="f27eded4a9">
