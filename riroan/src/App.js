@@ -17,6 +17,7 @@ import UtilitySet from './components/UtilitySet'
 import { MdOutlineCake } from 'react-icons/md'
 import { MdOutlineAlternateEmail } from 'react-icons/md'
 import { MdOutlineWorkOutline } from 'react-icons/md'
+import { MdOutlinePerson } from 'react-icons/md'
 import './App.css'
 import { useTranslation, Trans } from 'react-i18next'
 
@@ -47,6 +48,7 @@ export default function App() {
 						<Information icon={<MdOutlineCake size={20} style={iconStyle} />}>1998. 09. 09.</Information>
 						<Information icon={<MdOutlineWorkOutline size={20} style={iconStyle} />}>Kakao Server Developer</Information>
 						<Information icon={<MdOutlineAlternateEmail size={20} style={iconStyle} />}>riroan@naver.com</Information>
+						<Information icon={<MdOutlinePerson size={20} style={iconStyle} />}>INFJ</Information>
 					</P>
 				</Div>
 				<Div>
@@ -427,6 +429,11 @@ export default function App() {
 								<A href="https://www.acmicpc.net/problem/30462">MEXchange</A>
 							</Item>
 						</Ul>
+						<Item depth={1}>
+							<Trans t={t} i18nKey="451c29349c">
+								<A href="https://www.acmicpc.net/category/detail/4345"></A>
+							</Trans>
+						</Item>
 					</Ul>
 				</Div>
 
@@ -475,7 +482,13 @@ export default function App() {
 					<H2>
 						{t('b6751e45ef')} <Assist>2024. 04.</Assist>
 					</H2>
-					<P>{t('b77b273bca')} Alkon</P>
+					<P>{t('b77b273bca')}, Alkon</P>
+				</Div>
+				<Div>
+					<H2>
+						{t('6164be8d27')} <Assist>2024. 12.</Assist>
+					</H2>
+					<P>{t('b77b273bca')}, Konnect</P>
 				</Div>
 
 				<H1>CERTIFICATES</H1>
