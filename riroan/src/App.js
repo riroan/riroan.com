@@ -407,7 +407,7 @@ export default function App() {
 					<Ul display={true}>
 						<Item depth={1}>
 							<Trans t={t} i18nKey="eea448938a">
-								<A href="http://scoreboard.riroan.com/problemset.pdf"></A>
+								<A href="https://github.com/riroan/KUPC/blob/main/problem/main.pdf"></A>
 							</Trans>
 						</Item>
 						<Ul display={detail}>
@@ -432,6 +432,19 @@ export default function App() {
 						<Item depth={1}>
 							<Trans t={t} i18nKey="451c29349c">
 								<A href="https://www.acmicpc.net/category/detail/4345"></A>
+							</Trans>
+						</Item>
+					</Ul>
+				</Div>
+				<Div>
+					<H2>
+						<A href="https://www.acmicpc.net/category/408">APC</A> <Assist>Ajou University Programming Contest</Assist>
+					</H2>
+					<P>{t('dda64fb4b4')}</P>
+					<Ul display={true}>
+						<Item depth={1}>
+							<Trans t={t} i18nKey="a53a4c11bf">
+								<A href="https://www.acmicpc.net/category/detail/4380"></A>
 							</Trans>
 						</Item>
 					</Ul>
