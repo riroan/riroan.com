@@ -20,6 +20,7 @@ import { MdOutlineWorkOutline } from 'react-icons/md'
 import { MdOutlinePerson } from 'react-icons/md'
 import './App.css'
 import { useTranslation, Trans } from 'react-i18next'
+import { MdOutlineHome } from 'react-icons/md'
 
 export default function App() {
 	const darkmode = useSelector(state => state.darkmode.darkmode)
@@ -46,6 +47,7 @@ export default function App() {
 					</H1>
 					<P>
 						<Information icon={<MdOutlineCake size={20} style={iconStyle} />}>1998. 09. 09.</Information>
+						<Information icon={<MdOutlineHome size={20} style={iconStyle} />}>{t('c46e70dd31')}</Information>
 						<Information icon={<MdOutlineWorkOutline size={20} style={iconStyle} />}>Kakao Server Developer</Information>
 						<Information icon={<MdOutlineAlternateEmail size={20} style={iconStyle} />}>riroan@naver.com</Information>
 						<Information icon={<MdOutlinePerson size={20} style={iconStyle} />}>INFJ</Information>
