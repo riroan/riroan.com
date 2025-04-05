@@ -28,14 +28,14 @@ export default function App() {
 	const { t } = useTranslation()
 	const iconStyle = { verticalAlign: '-13%', marginRight: 15 }
 	useEffect(() => {
-		const referrer = document.referrer
-		fetch('https://visit.riroan.com/referrer', {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-			},
-			body: JSON.stringify({ referrer: referrer }),
-		})
+		// const referrer = document.referrer
+		// fetch('https://visit.riroan.com/referrer', {
+		// 	method: 'POST',
+		// 	headers: {
+		// 		'Content-Type': 'application/json',
+		// 	},
+		// 	body: JSON.stringify({ referrer: referrer }),
+		// })
 	}, [])
 	return (
 		<div className={['DefaultContainer', darkmode].join(' ')}>
@@ -244,7 +244,7 @@ export default function App() {
 				</Div>
 				<Div>
 					<H2>Frameworks</H2>
-					<TechStack>#FastAPI #Django #Spring #React</TechStack>
+					<TechStack>#FastAPI #Django #Spring #React #Openstack</TechStack>
 				</Div>
 				<Div>
 					<H2>AI</H2>
@@ -434,6 +434,11 @@ export default function App() {
 						<Item depth={1}>
 							<Trans t={t} i18nKey="451c29349c">
 								<A href="https://www.acmicpc.net/category/detail/4345"></A>
+							</Trans>
+						</Item>
+						<Item depth={1}>
+							<Trans t={t} i18nKey="27f162d455">
+								<A href="https://www.acmicpc.net/category/detail/4461"></A>
 							</Trans>
 						</Item>
 					</Ul>
