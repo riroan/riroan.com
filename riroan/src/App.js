@@ -50,7 +50,7 @@ export default function App() {
 						<Information icon={<MdOutlineHome size={20} style={iconStyle} />}>{t('c46e70dd31')}</Information>
 						<Information icon={<MdOutlineWorkOutline size={20} style={iconStyle} />}>Kakao Server Developer</Information>
 						<Information icon={<MdOutlineAlternateEmail size={20} style={iconStyle} />}>riroan@naver.com</Information>
-						<Information icon={<MdOutlinePerson size={20} style={iconStyle} />}>INFJ</Information>
+						<Information icon={<MdOutlinePerson size={20} style={iconStyle} />}>INFP</Information>
 					</P>
 				</Div>
 				<Div>
