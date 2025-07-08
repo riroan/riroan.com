@@ -295,6 +295,21 @@ export default function App() {
 					</Ul>
 				</Div>
 				<Div>
+					<H2>
+						<A href="https://scpc.space/">SCPC</A> <Assist>{t('ad42f02925')}</Assist>
+					</H2>
+					<Ul display={true}>
+						<Item>
+							2025, 17<sup>th</sup> place on Div. 2
+						</Item>
+						<Item>
+							<A href="https://riroan.tistory.com/174">
+								2024, 14<sup>th</sup> place on Div. 2
+							</A>
+						</Item>
+					</Ul>
+				</Div>
+				<Div>
 					<H2>{t('5703ef86fc')}</H2>
 					<Ul display={true}>
 						<Item>
