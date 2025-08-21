@@ -244,15 +244,15 @@ export default function App() {
 				</Div>
 				<Div>
 					<H2>Frameworks</H2>
-					<TechStack>#FastAPI #Django #Spring #React #Openstack</TechStack>
+					<TechStack>#FastAPI #React #Openstack</TechStack>
 				</Div>
 				<Div>
 					<H2>AI</H2>
-					<TechStack>#TensorFlow #Keras #Computer Vision</TechStack>
+					<TechStack>#TensorFlow #Computer Vision</TechStack>
 				</Div>
 				<Div>
 					<H2>DevOps</H2>
-					<TechStack>#Docker #Docker-Compose #Kubernetes #Github Action #Nginx</TechStack>
+					<TechStack>#Docker #Docker-Compose #Kubernetes #Github Action #Nginx #Jenkins</TechStack>
 				</Div>
 				<Div>
 					<H2>Mathematics</H2>
@@ -475,10 +475,21 @@ export default function App() {
 				<H1>ACTIVITIES</H1>
 				<Div>
 					<H2>
+						<Trans t={t} i18nKey="2959cdd843">
+							<A href="https://www.kakaotechcampus.com/"></A>
+						</Trans>{' '}
+						<DateTime>2025. 07. - 2025. 08.</DateTime>
+					</H2>
+					<P>
+						<Trans t={t} i18nKey="5f2b0fcf6b"></Trans>
+					</P>
+				</Div>
+				<Div>
+					<H2>
 						<Trans t={t} i18nKey="3b161a077a">
 							<A href="https://fastapi.tiangolo.com/"></A>
 						</Trans>{' '}
-						<DateTime>2024. 01 - </DateTime>
+						<DateTime>2024. 01.</DateTime>
 					</H2>
 					<P>
 						<Trans t={t} i18nKey="fe7a212f7e">
