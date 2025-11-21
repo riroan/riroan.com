@@ -456,6 +456,9 @@ export default function App() {
 								<A href="https://www.acmicpc.net/category/detail/4461"></A>
 							</Trans>
 						</Item>
+						<Item depth={1}>
+							<Trans t={t} i18nKey="dc8b66ca11"></Trans>
+						</Item>
 					</Ul>
 				</Div>
 				<Div>
