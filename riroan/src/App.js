@@ -457,7 +457,9 @@ export default function App() {
 							</Trans>
 						</Item>
 						<Item depth={1}>
-							<Trans t={t} i18nKey="dc8b66ca11"></Trans>
+							<Trans t={t} i18nKey="dc8b66ca11">
+								<A href="https://www.acmicpc.net/category/detail/4606"></A>
+							</Trans>
 						</Item>
 					</Ul>
 				</Div>
