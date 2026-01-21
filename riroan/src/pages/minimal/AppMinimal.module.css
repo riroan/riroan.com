@@ -1,0 +1,456 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+/* Container */
+.container {
+	min-height: 100vh;
+	background-color: #FAFAFA;
+	color: #222;
+	font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+	line-height: 1.7;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.darkmode {
+	background-color: #121212;
+	color: #E5E5E5;
+}
+
+.inner {
+	max-width: 720px;
+	margin: 0 auto;
+	padding: 80px 24px;
+}
+
+@media screen and (max-width: 767px) {
+	.inner {
+		padding: 48px 20px;
+	}
+}
+
+/* Header */
+.header {
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.name {
+	font-size: 42px;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	margin-bottom: 4px;
+}
+
+.subtitle {
+	font-size: 16px;
+	color: #888;
+	margin-bottom: 16px;
+}
+
+.info {
+	font-size: 14px;
+	color: #666;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 4px;
+}
+
+.darkmode .info {
+	color: #999;
+}
+
+.dot {
+	color: #ccc;
+	margin: 0 4px;
+}
+
+.darkmode .dot {
+	color: #555;
+}
+
+/* Section */
+.section {
+	margin-bottom: 64px;
+}
+
+.sectionTitle {
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #888;
+	margin-bottom: 24px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.darkmode .sectionTitle {
+	color: #777;
+	border-bottom-color: #333;
+}
+
+/* Entry (Work, Projects, Education, Activities) */
+.entry {
+	margin-bottom: 28px;
+}
+
+.entryHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-bottom: 4px;
+}
+
+.date {
+	font-size: 13px;
+	color: #888;
+	white-space: nowrap;
+}
+
+.role {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 4px;
+}
+
+.darkmode .role {
+	color: #999;
+}
+
+.projectName {
+	font-weight: 600;
+	font-size: 17px;
+}
+
+.projectSub {
+	font-size: 14px;
+	color: #888;
+	margin-bottom: 8px;
+}
+
+.techStack {
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 8px;
+}
+
+.darkmode .techStack {
+	color: #888;
+}
+
+.refer {
+	font-size: 13px;
+	margin-bottom: 8px;
+}
+
+.desc {
+	font-size: 15px;
+	color: #444;
+	line-height: 1.6;
+}
+
+.darkmode .desc {
+	color: #bbb;
+}
+
+/* Detail List */
+.detailList {
+	margin-top: 12px;
+	margin-left: 0;
+	padding-left: 20px;
+}
+
+.detailList li {
+	font-size: 14px;
+	color: #555;
+	margin-bottom: 6px;
+	list-style-type: disc;
+	padding-left: 4px;
+}
+
+.darkmode .detailList li {
+	color: #aaa;
+}
+
+.detailList ul {
+	margin-top: 6px;
+	margin-left: 0;
+	padding-left: 20px;
+}
+
+.detailList ul li {
+	list-style-type: circle;
+}
+
+/* About List */
+.aboutList {
+	padding-left: 0;
+}
+
+.aboutList li {
+	font-size: 15px;
+	color: #444;
+	margin-bottom: 10px;
+	list-style-type: none;
+	padding-left: 16px;
+	margin-left: 0;
+	position: relative;
+	line-height: 1.6;
+}
+
+.aboutList li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 10px;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #ccc;
+}
+
+.darkmode .aboutList li {
+	color: #bbb;
+}
+
+.darkmode .aboutList li::before {
+	background-color: #555;
+}
+
+/* About Title */
+.aboutTitle {
+	font-size: 15px;
+	font-weight: 500;
+	color: #666;
+	margin-bottom: 16px;
+}
+
+.darkmode .aboutTitle {
+	color: #999;
+}
+
+/* Skills */
+.skillGroup {
+	margin-bottom: 16px;
+}
+
+.skillTitle {
+	font-size: 14px;
+	font-weight: 600;
+	color: #333;
+	margin-bottom: 4px;
+}
+
+.darkmode .skillTitle {
+	color: #ddd;
+}
+
+.skillItems {
+	font-size: 14px;
+	color: #666;
+}
+
+.darkmode .skillItems {
+	color: #999;
+}
+
+/* Achievements */
+.achievement {
+	margin-bottom: 24px;
+}
+
+.achievementSub {
+	font-size: 13px;
+	color: #888;
+	margin-left: 8px;
+	font-weight: 400;
+}
+
+.achievementList {
+	margin-top: 8px;
+	padding-left: 20px;
+}
+
+.achievementList li {
+	font-size: 14px;
+	color: #555;
+	margin-bottom: 4px;
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.achievementList li::before {
+	content: "·";
+	margin-right: 8px;
+	color: #999;
+}
+
+.darkmode .achievementList li {
+	color: #aaa;
+}
+
+/* Algorithm */
+.algoEntry {
+	margin-bottom: 20px;
+}
+
+.algoHeader {
+	display: flex;
+	align-items: baseline;
+	gap: 12px;
+	flex-wrap: wrap;
+	margin-bottom: 4px;
+}
+
+.algoRating {
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.algoDesc {
+	font-size: 14px;
+	color: #666;
+}
+
+.darkmode .algoDesc {
+	color: #999;
+}
+
+/* Certificates */
+.certEntry {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 8px;
+	margin-bottom: 12px;
+}
+
+.certName {
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.certDate {
+	font-size: 13px;
+	color: #888;
+}
+
+.certDesc {
+	font-size: 14px;
+	color: #666;
+	width: 100%;
+}
+
+.darkmode .certDesc {
+	color: #999;
+}
+
+/* Games */
+.gameEntry {
+	margin-bottom: 16px;
+}
+
+.gameTitle {
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+
+.gameAccounts {
+	font-size: 14px;
+	color: #666;
+}
+
+.darkmode .gameAccounts {
+	color: #999;
+}
+
+.gameSub {
+	font-size: 13px;
+	color: #888;
+	margin-left: 8px;
+}
+
+/* Links */
+.link {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px dashed #bbb;
+	transition: border-color 0.2s ease;
+}
+
+.darkmode .link {
+	border-bottom-color: #666;
+}
+
+.link:hover {
+	border-bottom-color: currentColor;
+	border-bottom-style: solid;
+}
+
+.link:visited {
+	color: inherit;
+}
+
+/* Detail Toggle Animation */
+.detailWrapper {
+	display: grid;
+	grid-template-rows: 0fr;
+	transition: grid-template-rows 0.4s ease-out;
+}
+
+.detailWrapperOpen {
+	grid-template-rows: 1fr;
+}
+
+.detailInner {
+	overflow: hidden;
+}
+
+/* Footer */
+.footer {
+	margin-top: 80px;
+	padding-top: 32px;
+	border-top: 1px solid #E5E5E5;
+}
+
+.darkmode .footer {
+	border-top-color: #333;
+}
+
+.footerLinks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 8px 20px;
+}
+
+.footerLink {
+	font-size: 14px;
+	color: #666;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+.footerLink:hover {
+	color: #222;
+}
+
+.darkmode .footerLink {
+	color: #888;
+}
+
+.darkmode .footerLink:hover {
+	color: #E5E5E5;
+}
+
+.footerLink:visited {
+	color: #666;
+}
+
+.darkmode .footerLink:visited {
+	color: #888;
+}
