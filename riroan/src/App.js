@@ -545,6 +545,12 @@ export default function App() {
 				<H1>CERTIFICATES</H1>
 				<Div>
 					<H2>
+						JLPT <Assist>2026. 02.</Assist>
+					</H2>
+					<P>N4</P>
+				</Div>
+				<Div>
+					<H2>
 						PCCP Lv4 <Assist>2022. 11.</Assist>
 					</H2>
 					<P>{t('6244137e69')}</P>

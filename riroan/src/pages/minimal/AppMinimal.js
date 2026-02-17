@@ -547,6 +547,12 @@ export default function AppMinimal() {
 					<h2 className={styles.sectionTitle}>Certificates</h2>
 
 					<div className={styles.certEntry}>
+						<span className={styles.certName}>JLPT</span>
+						<span className={styles.certDate}>2026. 02.</span>
+						<span className={styles.certDesc}>N4</span>
+					</div>
+
+					<div className={styles.certEntry}>
 						<span className={styles.certName}>PCCP Lv4</span>
 						<span className={styles.certDate}>2022. 11.</span>
 						<span className={styles.certDesc}>{t('6244137e69')}</span>
