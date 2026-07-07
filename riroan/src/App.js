@@ -35,7 +35,7 @@ export default function App() {
 				'Content-Type': 'application/json',
 			},
 			body: JSON.stringify({ referrer: referrer }),
-		})
+		}).catch(() => {})
 	}, [])
 	return (
 		<div className={['DefaultContainer', darkmode].join(' ')}>
@@ -76,6 +76,42 @@ export default function App() {
 						{t('57e3da99f5')} <Assist>Backend Developer,</Assist> <DateTime>2023. 03. - 2023. 12.</DateTime>
 					</H2>
 				</Div>
+				<H1>AI EXPERIENCES</H1>
+				<Div>
+					<H2>
+						Moneger <Assist>AI-Driven Personal Finance Service,</Assist> <DateTime>2026. 01. -</DateTime>
+					</H2>
+					<TechStack>#Typescript #Next.js #React Native #Expo #Prisma #MySQL #Claude Code</TechStack>
+					<Refer>
+						<A href="https://github.com/riroan/moneger">Github</A>
+					</Refer>
+					<P>{t('a6f0aebcc8')}</P>
+					<Ul display={detail}>
+						<Item depth={1}>{t('c7478321ef')}</Item>
+						<Item depth={1}>{t('3b21af1b8a')}</Item>
+						<Item depth={1}>{t('806abc1568')}</Item>
+						<Item depth={1}>{t('9583b005bd')}</Item>
+						<Item depth={1}>{t('fd88931230')}</Item>
+					</Ul>
+				</Div>
+				<Div>
+					<H2>
+						BeRich <Assist>AI-Driven Algorithmic Trading Bot,</Assist> <DateTime>2026. 02. -</DateTime>
+					</H2>
+					<TechStack>#Python #FastAPI #SQLAlchemy #MySQL #Docker #Claude Code</TechStack>
+					<Refer>
+						<A href="https://github.com/riroan/BeRich">Github</A>
+					</Refer>
+					<P>{t('b60774575c')}</P>
+					<Ul display={detail}>
+						<Item depth={1}>{t('28e3320fcb')}</Item>
+						<Item depth={1}>{t('325a8586e3')}</Item>
+						<Item depth={1}>{t('b7611cf5cb')}</Item>
+						<Item depth={1}>{t('546597e7a6')}</Item>
+						<Item depth={1}>{t('fd46974b31')}</Item>
+					</Ul>
+				</Div>
+
 				<H1>PROJECTS</H1>
 				<Div>
 					<H2>
@@ -156,31 +192,6 @@ export default function App() {
 							</Trans>
 						</Item>
 						<Item depth={1}>{t('2a8b68e180')}</Item>
-					</Ul>
-				</Div>
-				<Div>
-					<H2>
-						Kunsolved <DateTime>2022. 04. - 2022. 10.</DateTime>
-					</H2>
-					<TechStack>#Typescript #React #Python #FastAPI #MySQL #AWS #Docker #Github Action</TechStack>
-					<Refer>
-						<A href="https://bj.riroan.com/">Site</A> <A href="https://github.com/riroan/Kunsolved">Github</A>
-					</Refer>
-					<P>{t('85c8632fa3')}</P>
-					<Ul display={detail}>
-						<Item depth={1}>{t('eea9e2270d')}</Item>
-						<Item depth={1}>{t('9e6fcd0428')}</Item>
-						<Item depth={1}>
-							<Trans t={t} i18nKey="67b5ff53fc">
-								<A href="https://www.chartjs.org/"></A>
-							</Trans>
-						</Item>
-						<Item depth={1}>{t('e8b73c5fe8')}</Item>
-						<Item depth={1}>
-							<Trans t={t} i18nKey="e94e03d3a3">
-								<A href="https://aws.amazon.com/ko/certificate-manager/"></A>
-							</Trans>
-						</Item>
 					</Ul>
 				</Div>
 				<Div>

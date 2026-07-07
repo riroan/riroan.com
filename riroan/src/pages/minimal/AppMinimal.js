@@ -17,7 +17,7 @@ export default function AppMinimal() {
 				'Content-Type': 'application/json',
 			},
 			body: JSON.stringify({ referrer: referrer }),
-		})
+		}).catch(() => {})
 	}, [])
 
 	return (
@@ -74,6 +74,59 @@ export default function AppMinimal() {
 							<span className={styles.date}>2023. 03. - 2023. 12.</span>
 						</div>
 						<p className={styles.role}>Backend Developer</p>
+					</div>
+				</section>
+
+				{/* AI Experiences */}
+				<section className={styles.section}>
+					<h2 className={styles.sectionTitle}>AI Experiences</h2>
+
+					<div className={styles.entry}>
+						<div className={styles.entryHeader}>
+							<span className={styles.projectName}>Moneger</span>
+							<span className={styles.date}>2026. 01. -</span>
+						</div>
+						<p className={styles.projectSub}>AI-Driven Personal Finance Service</p>
+						<p className={styles.techStack}>Typescript · Next.js · React Native · Expo · Prisma · MySQL · Claude Code</p>
+						<p className={styles.refer}>
+							<a href="https://github.com/riroan/moneger" className={styles.link}>Github</a>
+						</p>
+						<p className={styles.desc}>{t('a6f0aebcc8')}</p>
+						<div className={`${styles.detailWrapper} ${detail ? styles.detailWrapperOpen : ''}`}>
+							<div className={styles.detailInner}>
+								<ul className={styles.detailList}>
+									<li>{t('c7478321ef')}</li>
+									<li>{t('3b21af1b8a')}</li>
+									<li>{t('806abc1568')}</li>
+									<li>{t('9583b005bd')}</li>
+									<li>{t('fd88931230')}</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div className={styles.entry}>
+						<div className={styles.entryHeader}>
+							<span className={styles.projectName}>BeRich</span>
+							<span className={styles.date}>2026. 02. -</span>
+						</div>
+						<p className={styles.projectSub}>AI-Driven Algorithmic Trading Bot</p>
+						<p className={styles.techStack}>Python · FastAPI · SQLAlchemy · MySQL · Docker · Claude Code</p>
+						<p className={styles.refer}>
+							<a href="https://github.com/riroan/BeRich" className={styles.link}>Github</a>
+						</p>
+						<p className={styles.desc}>{t('b60774575c')}</p>
+						<div className={`${styles.detailWrapper} ${detail ? styles.detailWrapperOpen : ''}`}>
+							<div className={styles.detailInner}>
+								<ul className={styles.detailList}>
+									<li>{t('28e3320fcb')}</li>
+									<li>{t('325a8586e3')}</li>
+									<li>{t('b7611cf5cb')}</li>
+									<li>{t('546597e7a6')}</li>
+									<li>{t('fd46974b31')}</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</section>
 
@@ -151,31 +204,6 @@ export default function AppMinimal() {
 									<li>{t('eea9e2270d')}</li>
 									<li><Trans t={t} i18nKey="b85f775faa"><a href="https://jwt.io/" className={styles.link}></a></Trans></li>
 									<li>{t('2a8b68e180')}</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-					<div className={styles.entry}>
-						<div className={styles.entryHeader}>
-							<span className={styles.projectName}>Kunsolved</span>
-							<span className={styles.date}>2022. 04. - 2022. 10.</span>
-						</div>
-						<p className={styles.techStack}>Typescript · React · Python · FastAPI · MySQL · AWS · Docker · Github Action</p>
-						<p className={styles.refer}>
-							<a href="https://bj.riroan.com/" className={styles.link}>Site</a>
-							<span className={styles.dot}>·</span>
-							<a href="https://github.com/riroan/Kunsolved" className={styles.link}>Github</a>
-						</p>
-						<p className={styles.desc}>{t('85c8632fa3')}</p>
-						<div className={`${styles.detailWrapper} ${detail ? styles.detailWrapperOpen : ''}`}>
-							<div className={styles.detailInner}>
-								<ul className={styles.detailList}>
-									<li>{t('eea9e2270d')}</li>
-									<li>{t('9e6fcd0428')}</li>
-									<li><Trans t={t} i18nKey="67b5ff53fc"><a href="https://www.chartjs.org/" className={styles.link}></a></Trans></li>
-									<li>{t('e8b73c5fe8')}</li>
-									<li><Trans t={t} i18nKey="e94e03d3a3"><a href="https://aws.amazon.com/ko/certificate-manager/" className={styles.link}></a></Trans></li>
 								</ul>
 							</div>
 						</div>

@@ -21,7 +21,7 @@ export default function PortfolioLight() {
 				'Content-Type': 'application/json',
 			},
 			body: JSON.stringify({ referrer: referrer }),
-		})
+		}).catch(() => {})
 	}, [])
 
 	const scrollToSection = id => {
