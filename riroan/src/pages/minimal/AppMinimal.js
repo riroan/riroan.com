@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useSelector } from 'react-redux'
 import { useTranslation, Trans } from 'react-i18next'
 import styles from './AppMinimal.module.css'
@@ -8,17 +8,6 @@ export default function AppMinimal() {
 	const darkmode = useSelector(state => state.darkmode.darkmode)
 	const detail = useSelector(state => state.detail.detail)
 	const { t } = useTranslation()
-
-	useEffect(() => {
-		const referrer = document.referrer
-		fetch('https://visit.riroan.com/referrer', {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-			},
-			body: JSON.stringify({ referrer: referrer }),
-		}).catch(() => {})
-	}, [])
 
 	return (
 		<div className={`${styles.container} ${darkmode ? styles.darkmode : ''}`}>
@@ -302,7 +291,7 @@ export default function AppMinimal() {
 
 					<div className={styles.skillGroup}>
 						<h3 className={styles.skillTitle}>AI</h3>
-						<p className={styles.skillItems}>TensorFlow · Computer Vision</p>
+						<p className={styles.skillItems}>TensorFlow · Computer Vision · Claude Code · Codex</p>
 					</div>
 
 					<div className={styles.skillGroup}>

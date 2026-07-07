@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useSelector } from 'react-redux'
 import A from './components/A'
 import Assist from './components/Assist'
@@ -27,16 +27,6 @@ export default function App() {
 	const detail = useSelector(state => state.detail.detail)
 	const { t } = useTranslation()
 	const iconStyle = { verticalAlign: '-13%', marginRight: 15 }
-	useEffect(() => {
-		const referrer = document.referrer
-		fetch('https://visit.riroan.com/referrer', {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-			},
-			body: JSON.stringify({ referrer: referrer }),
-		}).catch(() => {})
-	}, [])
 	return (
 		<div className={['DefaultContainer', darkmode].join(' ')}>
 			<div className={'innerContainer'}>
@@ -259,7 +249,7 @@ export default function App() {
 				</Div>
 				<Div>
 					<H2>AI</H2>
-					<TechStack>#TensorFlow #Computer Vision</TechStack>
+					<TechStack>#TensorFlow #Computer Vision #Claude Code #Codex</TechStack>
 				</Div>
 				<Div>
 					<H2>DevOps</H2>

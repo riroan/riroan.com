@@ -13,17 +13,6 @@ export default function PortfolioLight() {
 		setLoaded(true)
 	}, [])
 
-	useEffect(() => {
-		const referrer = document.referrer
-		fetch('https://visit.riroan.com/referrer', {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-			},
-			body: JSON.stringify({ referrer: referrer }),
-		}).catch(() => {})
-	}, [])
-
 	const scrollToSection = id => {
 		setActiveSection(id)
 		document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
